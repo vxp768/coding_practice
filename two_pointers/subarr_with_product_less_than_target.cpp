@@ -1,0 +1,4 @@
+/*
+Need to find count of subarray not sub sequence
+Cannot sort array
+*/

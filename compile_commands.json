@@ -1,0 +1,157 @@
+[{
+  "file": "/Users/saukuma2/codelite/coding_practice/sorting/main.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/sorting",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/sorting/main.cpp -o /Users/saukuma2/codelite/coding_practice/sorting/main.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/sorting/median_2_sorted_array.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/sorting",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/sorting/median_2_sorted_array.cpp -o /Users/saukuma2/codelite/coding_practice/sorting/median_2_sorted_array.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/sorting/median_data_stream.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/sorting",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/sorting/median_data_stream.cpp -o /Users/saukuma2/codelite/coding_practice/sorting/median_data_stream.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/slow_fast_pointers/main.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/slow_fast_pointers",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/slow_fast_pointers/main.cpp -o /Users/saukuma2/codelite/coding_practice/slow_fast_pointers/main.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/trie_prefix_suffix/main.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/trie_prefix_suffix",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/trie_prefix_suffix/main.cpp -o /Users/saukuma2/codelite/coding_practice/trie_prefix_suffix/main.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/tree_bst/main.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/tree_bst",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/tree_bst/main.cpp -o /Users/saukuma2/codelite/coding_practice/tree_bst/main.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/tree_bst/lvl_order_traversal.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/tree_bst",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/tree_bst/lvl_order_traversal.cpp -o /Users/saukuma2/codelite/coding_practice/tree_bst/lvl_order_traversal.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/graphs/main.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/graphs",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/graphs/main.cpp -o /Users/saukuma2/codelite/coding_practice/graphs/main.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/graphs/word_ladder_bfs.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/graphs",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/graphs/word_ladder_bfs.cpp -o /Users/saukuma2/codelite/coding_practice/graphs/word_ladder_bfs.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/graphs/word_ladder_ii.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/graphs",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/graphs/word_ladder_ii.cpp -o /Users/saukuma2/codelite/coding_practice/graphs/word_ladder_ii.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/sliding_window/main.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/sliding_window",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/sliding_window/main.cpp -o /Users/saukuma2/codelite/coding_practice/sliding_window/main.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/sliding_window/max_sum_subarray_size_K.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/sliding_window",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/sliding_window/max_sum_subarray_size_K.cpp -o /Users/saukuma2/codelite/coding_practice/sliding_window/max_sum_subarray_size_K.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/sliding_window/smallest_subarr_given_sum.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/sliding_window",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/sliding_window/smallest_subarr_given_sum.cpp -o /Users/saukuma2/codelite/coding_practice/sliding_window/smallest_subarr_given_sum.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/sliding_window/no_repeat_substring.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/sliding_window",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/sliding_window/no_repeat_substring.cpp -o /Users/saukuma2/codelite/coding_practice/sliding_window/no_repeat_substring.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/sliding_window/fruits_into_baskets.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/sliding_window",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/sliding_window/fruits_into_baskets.cpp -o /Users/saukuma2/codelite/coding_practice/sliding_window/fruits_into_baskets.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/sliding_window/longest_substr_k_distinct_char.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/sliding_window",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/sliding_window/longest_substr_k_distinct_char.cpp -o /Users/saukuma2/codelite/coding_practice/sliding_window/longest_substr_k_distinct_char.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/sliding_window/longest_substring_same_after_replacement.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/sliding_window",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/sliding_window/longest_substring_same_after_replacement.cpp -o /Users/saukuma2/codelite/coding_practice/sliding_window/longest_substring_same_after_replacement.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/sliding_window/sliding_window_median.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/sliding_window",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/sliding_window/sliding_window_median.cpp -o /Users/saukuma2/codelite/coding_practice/sliding_window/sliding_window_median.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/sliding_window/longest_subarr_with_ones_after_replacement.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/sliding_window",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/sliding_window/longest_subarr_with_ones_after_replacement.cpp -o /Users/saukuma2/codelite/coding_practice/sliding_window/longest_subarr_with_ones_after_replacement.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/string_pattern/main.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/string_pattern",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/string_pattern/main.cpp -o /Users/saukuma2/codelite/coding_practice/string_pattern/main.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/backtracking_perm_comb/main.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/backtracking_perm_comb",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/backtracking_perm_comb/main.cpp -o /Users/saukuma2/codelite/coding_practice/backtracking_perm_comb/main.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/two_pointers/main.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/two_pointers",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/two_pointers/main.cpp -o /Users/saukuma2/codelite/coding_practice/two_pointers/main.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/two_pointers/pair_with_target_sum.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/two_pointers",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/two_pointers/pair_with_target_sum.cpp -o /Users/saukuma2/codelite/coding_practice/two_pointers/pair_with_target_sum.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/two_pointers/square_sorted_arr.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/two_pointers",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/two_pointers/square_sorted_arr.cpp -o /Users/saukuma2/codelite/coding_practice/two_pointers/square_sorted_arr.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/two_pointers/triplets_with_smaller_sum.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/two_pointers",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/two_pointers/triplets_with_smaller_sum.cpp -o /Users/saukuma2/codelite/coding_practice/two_pointers/triplets_with_smaller_sum.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/two_pointers/subarr_with_product_less_than_target.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/two_pointers",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/two_pointers/subarr_with_product_less_than_target.cpp -o /Users/saukuma2/codelite/coding_practice/two_pointers/subarr_with_product_less_than_target.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/two_pointers/triplet_sum_close_to_target.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/two_pointers",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/two_pointers/triplet_sum_close_to_target.cpp -o /Users/saukuma2/codelite/coding_practice/two_pointers/triplet_sum_close_to_target.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/two_pointers/triplet_sum_to_zero.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/two_pointers",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/two_pointers/triplet_sum_to_zero.cpp -o /Users/saukuma2/codelite/coding_practice/two_pointers/triplet_sum_to_zero.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/two_pointers/dutch_national_flag_problem.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/two_pointers",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/two_pointers/dutch_national_flag_problem.cpp -o /Users/saukuma2/codelite/coding_practice/two_pointers/dutch_national_flag_problem.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/two_pointers/remove_duplicates.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/two_pointers",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/two_pointers/remove_duplicates.cpp -o /Users/saukuma2/codelite/coding_practice/two_pointers/remove_duplicates.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/two_pointers/two_sum.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/two_pointers",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/two_pointers/two_sum.cpp -o /Users/saukuma2/codelite/coding_practice/two_pointers/two_sum.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/interval_problems/main.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/interval_problems",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/interval_problems/main.cpp -o /Users/saukuma2/codelite/coding_practice/interval_problems/main.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/dp/main.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/dp",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/dp/main.cpp -o /Users/saukuma2/codelite/coding_practice/dp/main.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/dp/longest_common_subsequence.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/dp",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/dp/longest_common_subsequence.cpp -o /Users/saukuma2/codelite/coding_practice/dp/longest_common_subsequence.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/dp/longest_palindromic_substring.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/dp",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/dp/longest_palindromic_substring.cpp -o /Users/saukuma2/codelite/coding_practice/dp/longest_palindromic_substring.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/dp/longest_palindromic_subsequence.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/dp",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/dp/longest_palindromic_subsequence.cpp -o /Users/saukuma2/codelite/coding_practice/dp/longest_palindromic_subsequence.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/dp/longest_common_substring.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/dp",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/dp/longest_common_substring.cpp -o /Users/saukuma2/codelite/coding_practice/dp/longest_common_substring.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/dp/word_break.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/dp",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/dp/word_break.cpp -o /Users/saukuma2/codelite/coding_practice/dp/word_break.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/saukuma2/codelite/coding_practice/dp/word_break_II.cpp",
+  "directory": "/Users/saukuma2/codelite/coding_practice/dp",
+  "command": "clang  -c /Users/saukuma2/codelite/coding_practice/dp/word_break_II.cpp -o /Users/saukuma2/codelite/coding_practice/dp/word_break_II.cpp.o  -I/usr/local/include -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include -I/Library/Developer/CommandLineTools/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I. -I.  -g  -O0  -Wall"
+ }]
