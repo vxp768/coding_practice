@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="coding_practice" Database="" Version="10.0.0">
   <Project Name="dp_strings" Path="dp/dp.project" Active="No"/>
-  <Project Name="backtracking_perm_comb" Path="backtracking_perm_comb/backtracking_perm_comb.project" Active="No"/>
+  <Project Name="backtrack_perm_comb_subset" Path="backtracking_perm_comb/backtracking_perm_comb.project" Active="No"/>
   <Project Name="string_pattern" Path="string_pattern/string_pattern.project" Active="No"/>
   <Project Name="sliding_window" Path="sliding_window/sliding_window.project" Active="No"/>
   <Project Name="two_pointers" Path="two_pointers/two_pointers.project" Active="No"/>
@@ -10,12 +10,17 @@
   <Project Name="trie_prefix_suffix" Path="trie_prefix_suffix/trie_prefix_suffix.project" Active="No"/>
   <Project Name="slow_fast_pointers" Path="slow_fast_pointers/slow_fast_pointers.project" Active="No"/>
   <Project Name="interval_problems" Path="interval_problems/interval_problems.project" Active="No"/>
-  <Project Name="sorting" Path="sorting/sorting.project" Active="Yes"/>
+  <Project Name="sorting" Path="sorting/sorting.project" Active="No"/>
+  <Project Name="bit_operations" Path="bit_operations/bit_operations.project" Active="No"/>
+  <Project Name="top_K_elements" Path="top_K_elements/top_K_elements.project" Active="No"/>
+  <Project Name="heaps_priority_queue" Path="heaps_priority_queue/heaps_priority_queue.project" Active="No"/>
+  <Project Name="ALGO_NOTES" Path="ALGO_NOTES/ALGO_NOTES.project" Active="Yes"/>
+  <Project Name="COMPANY_QUESTION_TIPS" Path="COMPANY_QUESTION_TIPS/COMPANY_QUESTION_TIPS.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="dp_strings" ConfigName="Debug"/>
-      <Project Name="backtracking_perm_comb" ConfigName="Debug"/>
+      <Project Name="backtrack_perm_comb_subset" ConfigName="Debug"/>
       <Project Name="string_pattern" ConfigName="Debug"/>
       <Project Name="sliding_window" ConfigName="Debug"/>
       <Project Name="two_pointers" ConfigName="Debug"/>
@@ -25,11 +30,16 @@
       <Project Name="slow_fast_pointers" ConfigName="Debug"/>
       <Project Name="interval_problems" ConfigName="Debug"/>
       <Project Name="sorting" ConfigName="Debug"/>
+      <Project Name="bit_operations" ConfigName="Debug"/>
+      <Project Name="top_K_elements" ConfigName="Debug"/>
+      <Project Name="heaps_priority_queue" ConfigName="Debug"/>
+      <Project Name="ALGO_NOTES" ConfigName="Debug"/>
+      <Project Name="COMPANY_QUESTION_TIPS" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="dp_strings" ConfigName="Release"/>
-      <Project Name="backtracking_perm_comb" ConfigName="Release"/>
+      <Project Name="backtrack_perm_comb_subset" ConfigName="Release"/>
       <Project Name="string_pattern" ConfigName="Release"/>
       <Project Name="sliding_window" ConfigName="Release"/>
       <Project Name="two_pointers" ConfigName="Release"/>
@@ -39,6 +49,11 @@
       <Project Name="slow_fast_pointers" ConfigName="Release"/>
       <Project Name="interval_problems" ConfigName="Release"/>
       <Project Name="sorting" ConfigName="Release"/>
+      <Project Name="bit_operations" ConfigName="Release"/>
+      <Project Name="top_K_elements" ConfigName="Release"/>
+      <Project Name="heaps_priority_queue" ConfigName="Release"/>
+      <Project Name="ALGO_NOTES" ConfigName="Debug"/>
+      <Project Name="COMPANY_QUESTION_TIPS" ConfigName="Debug"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

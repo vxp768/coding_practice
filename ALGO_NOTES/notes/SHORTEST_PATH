@@ -1,0 +1,18 @@
+Graph G(V,E) 
+
+Topological sort: works only for DAG…Graphs cannot have cycles but can have -ve edges.
+After topological sort pick the source and relax all the edges in forward direction. 
+
+Dijkstra’s algo: Graphs can have cycle but no -ve edges.
+Relax each edge exactly once 
+Edges are non-negative. 
+Greedy algo. 
+Dijkstra is sort of BFS and greedy combined since once vertex is selected we look at all adjacents and pick the one with minimum weight. 
+
+Bellman-Ford:
+Relax each edge |V| -1 times. 
+Edges can have -ve weight. 
+Can detect -ve weigth cycle. 
+
+Floyd Warshall algo:
+Dynamic programming. 

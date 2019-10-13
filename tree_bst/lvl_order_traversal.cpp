@@ -7,6 +7,7 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+ //return result in vector of vector, one vector for each level
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
@@ -32,3 +33,5 @@ public:
         return result;
     }
 };
+
+//Simple level order traversal

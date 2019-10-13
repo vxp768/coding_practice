@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="backtracking_perm_comb" Version="10.0.0" InternalType="Console">
+<CodeLite_Project Name="backtrack_perm_comb_subset" Version="10.0.0" InternalType="Console">
   <Description/>
   <Dependencies/>
   <Settings Type="Executable">
@@ -93,6 +93,11 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="sum_of_subsets.cpp"/>
+    <File Name="subsets.cpp"/>
+    <File Name="N_QUEENS.cpp"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
 </CodeLite_Project>

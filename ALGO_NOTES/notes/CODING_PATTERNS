@@ -1,0 +1,111 @@
+	1.	Sliding window: 
+        1.	Maximum Sum Subarray of Size K 
+        2.	Smallest Subarray with a given sum 
+        3.	Longest Substring with K Distinct Characters 
+        4.	Fruits into Baskets 
+        5.	No-repeat Substring 
+        6.	Longest Substring with Same Letters after Replacement 
+        7.	Longest Subarray with Ones after Replacement 
+
+	2.	Two pointers: 
+        1.	Pair with Target Sum 
+        2.	Remove Duplicates 
+        3.	Squaring a Sorted Array 
+        4.	Triplet Sum to Zero 
+        5.	Triplet Sum Close to Target 
+        6.	Triplets with Smaller Sum 
+        7.	Subarrays with Product Less than a Target 
+        8.	Dutch National Flag Problem 
+        
+	3.	Fast and slow pointers: 
+        1.	LinkedList Cycle 
+        2.	Start of LinkedList Cycle 
+        3.	Happy Number 
+        4.	Middle of the LinkedList 
+
+	4.	Merge intervals: 
+        1.	Merge Intervals 
+        2.	Insert Interval 
+        3.	Intervals Intersection 
+        4.	Conflicting Appointments 
+
+	5.	Cyclic sort: 
+        1.	Cyclic Sort 
+        2.	Find the Missing Number 
+        3.	Find all Missing Numbers 
+        4.	Find the Duplicate Number 
+        5.	Find all Duplicate Numbers 
+        
+    6.	In-place reversal of linked list: 
+        1.	Reverse a LinkedList 
+        2.	Reverse a Sub-list 
+        3.	Reverse every K-element Sub-list 
+
+    7.	Tree BFS: 
+        1.	Binary Tree Level Order Traversal 
+        2.	Reverse Level Order Traversal 
+        3.	Zigzag Traversal 
+        4.	Level Averages in a Binary Tree 
+        5.	Minimum Depth of a Binary Tree 
+        6.	Level Order Successor 
+        7.	Connect Level Order Siblings 
+
+	8.	Tree DFS: 
+        1.	Binary Tree Path Sum 
+        2.	All Paths for a Sum  
+        3.	Sum of Path Numbers 
+        4.	Path With Given Sequence 
+        5.	Count Paths for a Sum 
+
+    9.	Two heaps: 
+        1.	Find the Median of a Number Stream 
+        2.	Sliding Window Median 
+        3.	Maximize Capital 
+
+    10.	Subsets: 
+        1.	Subsets 
+        2.	Subsets With Duplicates  
+        3.	Permutations 
+        4.	String Permutations by changing case  
+        5.	Balanced Parentheses  
+        6.	Unique Generalized Abbreviations 
+
+    11.	 Modified binary search 
+        1.	Order agnostic binary search 
+        2.	ceiling of a number 
+        3.	Next Letter 
+        4.	Number range 
+        5.	Search in a sorted infinite array 
+        6.	Minimum difference element 
+        7.	Bitonic array maximum 
+
+	12.	Top K elements: 
+        1.	Top K numbers 
+        2.	Kth smallest number 
+        3.	K closest point to origin 
+        4.	Connect ropes 
+        5.	Top K frequent numbers 
+        6.	Frequency sort 
+        7.	Kth largest number in a stream 
+        8.	Kth closest number 
+        9.	Maximum distinct elements 
+        10.	Sum of elements 
+        11.	Rearrange string 
+
+    13.	K-way merge: 
+        1.	Merge K sorted lists 
+        2.	Kth smallest Number in M sorted lists 
+        3.	Kth Smallest Number in a Sorted Matrix (Hard)
+        4.	Smallest Number Range 
+
+    14.	0/1 knapsack DP: 
+        1.	Knapsack 
+        2.	Equal subset sum partition 
+        3.	subset sum 
+        4.	minimum subset sum difference 
+
+    15.	Topological sorting: 
+        1.	Task schedulig 
+        2.	Task scheduling order 
+        3.	All task scheduling orders 
+        4.	Alien dictionary 

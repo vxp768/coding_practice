@@ -1,0 +1,10 @@
+R-Way trie
+If space is available R-way trie provide fastest search => constant number of character compares. 
+Worst case string search will take O(N)…N is number of char in string. 
+
+TST
+For large alphabets, where space is not available for R-way tries, TST (ternary search tree) are preferable. 
+
+Hashing can be competitve but cannot support ordered symbol-table operations or extended char based API operations such as prefix or wildcard match. 
+
+Ordered symbol table: keys in symbol table (dict) are comparable objects. So keys “a” and “b” can be compared. Several symbol table implementation take advantage of this order for efficient implementation. This comparable feature allows implementation of APIs like “all keys less/greater than”, “floor/celing of key”, “rank of key”, “keys between some range”. 

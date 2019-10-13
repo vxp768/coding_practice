@@ -1,0 +1,6 @@
+
+1. Backtracing follows Depth first approach
+   Create whole state space tree and apply constraints to get solutions.
+
+
+2. Branch and Bound follows Breadth first approach.

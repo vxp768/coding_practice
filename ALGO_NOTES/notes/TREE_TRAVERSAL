@@ -1,0 +1,23 @@
+TREE: 
+Given a complete tree of depth 100, last level will have 2^100 close to 10^15 nodes and 
+	1.	Level Order Traversal:  if we are using queue for level order traversal at one point  it will hold more than 10^15 nodes. 
+
+	2.	Instead if we use recursive algo to traverse, recursion depth at max will be close to 100. 
+
+  For this case recursive algo will save lot of memory 
+
+
+Traversals:
+BFS:  level order traversal.
+        Space requirement:   max width of tree will decide size of queue.
+
+DFS: inorder/preorder/postorder
+        Space requirement:  max depth will decide the depth of recursive function stack.
+
+How to Pick One?
+	1.	Extra Space can be one factor (Explained above)
+
+	2.	Depth First Traversals are typically recursive and recursive code requires function call overheads.
+
+	3.	The most important points is, BFS starts visiting nodes from root while DFS starts visiting nodes from leaves. So if our problem is to search something that is more likely to closer to root, we would prefer BFS. And if the target node is close to a leaf, we would prefer DFS.
+

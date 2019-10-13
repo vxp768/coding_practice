@@ -1,0 +1,31 @@
+
+STL is a set of C++ template classes to provide common programming data structures and functions such as lists, stacks, arrays, etc. 
+It is a library of container classes, algorithms and iterators
+
+STL has four components: 
+	1.	Algorithms 
+
+	2.	Containers 
+
+	3.	Functions 
+
+	4.	Iterators 
+
+
+Algorithms: Sorting, Searching, etc. 
+Containers:  
+          Sequence containers: implement data structures which can be accessed in a sequential manner. 
+                                              vector, list, deque, arrays, forward_list 
+
+          Container adaptors: provide a different interface for sequential containers. 
+                                              queue, priority_queue, stack 
+
+          Associative containers: implement sorted data structures that can be quickly searched (O(log n)complexity) 
+                                           set, multiset, map, multimap
+
+
+Priority queues can be implemented by heaps, and heaps can be implemented by arrays.
+
+https://www.fluentcpp.com/2018/03/20/heaps-and-priority-queues-in-c-part-3-queues-and-priority-queues/
+
+
