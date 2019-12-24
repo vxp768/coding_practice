@@ -1,5 +1,6 @@
-//BRUTE FORCE RECURSIVE
+//Generate all the subsets from array of integers
 
+//BRUTE FORCE RECURSIVE
 class Solution {
     vector<vector<int>> final_result;
 public:

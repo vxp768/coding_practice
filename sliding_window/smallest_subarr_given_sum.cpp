@@ -17,7 +17,7 @@ public:
         int smallest_sub=INT_MAX;
         if(nums.size()==0)
             return 0;
-        for(right=0; right<nums.size(); right++){
+        for (right=0; right<nums.size(); right++) {
             sum += nums[right];
             while(sum >= s) {
                 smallest_sub = min(smallest_sub, right-left+1);

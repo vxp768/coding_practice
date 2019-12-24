@@ -1,7 +1,1 @@
--I/usr/local/include
--I/Library/Developer/CommandLineTools/usr/include/c++/v1
--I/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include
--I/Library/Developer/CommandLineTools/usr/include
--I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include
--I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks
 -I/Users/saukuma2/codelite/coding_practice/ALGO_NOTES

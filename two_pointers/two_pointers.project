@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="two_pointers" Version="10.0.0" InternalType="Console">
+<CodeLite_Project Name="two_pointers" Version="11000" InternalType="Console">
   <Description/>
   <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="two_sum.cpp"/>
+    <File Name="triplets_with_smaller_sum.cpp"/>
+    <File Name="dutch_national_flag_problem.cpp"/>
+    <File Name="subarr_with_product_less_than_target.cpp"/>
+    <File Name="triplet_sum_close_to_target.cpp"/>
+    <File Name="triplet_sum_to_zero.cpp"/>
+    <File Name="square_sorted_arr.cpp"/>
+    <File Name="remove_duplicates.cpp"/>
+    <File Name="pair_with_target_sum.cpp"/>
+    <File Name="main.cpp"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
   <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
@@ -92,18 +106,4 @@
       </Completion>
     </Configuration>
   </Settings>
-  <VirtualDirectory Name="src">
-    <File Name="two_sum.cpp"/>
-    <File Name="triplets_with_smaller_sum.cpp"/>
-    <File Name="dutch_national_flag_problem.cpp"/>
-    <File Name="subarr_with_product_less_than_target.cpp"/>
-    <File Name="triplet_sum_close_to_target.cpp"/>
-    <File Name="triplet_sum_to_zero.cpp"/>
-    <File Name="square_sorted_arr.cpp"/>
-    <File Name="remove_duplicates.cpp"/>
-    <File Name="pair_with_target_sum.cpp"/>
-    <File Name="main.cpp"/>
-  </VirtualDirectory>
-  <Dependencies Name="Debug"/>
-  <Dependencies Name="Release"/>
 </CodeLite_Project>

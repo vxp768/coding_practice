@@ -31,7 +31,7 @@ public:
                 if (sum == tgt){
                     //remove the duplicates
                     while (front+1 < rear && nums[front] == nums[front+1]) front++;
-                    while (rear-1 < front && nums[rear] == nums[rear-1]) rear--;
+                    while (rear-1 > front && nums[rear] == nums[rear-1]) rear--;
                     
                     vector<int> tmp = {nums[i], nums[front], nums[rear]};
                     result.push_back(tmp);

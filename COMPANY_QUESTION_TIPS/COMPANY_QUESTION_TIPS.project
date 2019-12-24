@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="COMPANY_QUESTION_TIPS" Version="10.0.0" InternalType="">
+<CodeLite_Project Name="COMPANY_QUESTION_TIPS" Version="11000" InternalType="">
   <VirtualDirectory Name="coding">
     <File Name="NUTANIX/nutanix"/>
   </VirtualDirectory>
   <Description/>
   <Dependencies/>
+  <Dependencies Name="Debug"/>
   <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
@@ -58,5 +59,4 @@
       </Completion>
     </Configuration>
   </Settings>
-  <Dependencies Name="Debug"/>
 </CodeLite_Project>

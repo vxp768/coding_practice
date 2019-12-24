@@ -5,7 +5,7 @@ Input: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
 Output: false
 */
 
-//RECURSIVE O(n^n)
+//RECURSIVE O(2^n-1)
 //worst case "aaaaab" and all possible prefix of string is in dictionary
 class Solution {
     unordered_set<string> str_set;

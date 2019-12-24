@@ -1,0 +1,3 @@
+1. Given array of size n, try solution for array[i-1] then add ith elem
+
+2. Pre process the array into unordered_map (hash) and then do the find/search of element

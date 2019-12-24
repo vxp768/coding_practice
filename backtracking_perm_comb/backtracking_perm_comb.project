@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="backtrack_perm_comb_subset" Version="10.0.0" InternalType="Console">
+<CodeLite_Project Name="backtrack_perm_comb_subset" Version="11000" InternalType="Console">
   <Description/>
   <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="combination_sum.cpp"/>
+    <File Name="combinations.cpp"/>
+    <File Name="palindrome_permutation.cpp"/>
+    <File Name="permutation_II.cpp"/>
+    <File Name="Permutations.cpp"/>
+    <File Name="partition_K_equal_sum_subsets.cpp"/>
+    <File Name="partition_array_equal_sum_subset.cpp"/>
+    <File Name="subsets_II_duplicates.cpp"/>
+    <File Name="sum_of_subsets.cpp"/>
+    <File Name="subsets.cpp"/>
+    <File Name="N_QUEENS.cpp"/>
+    <File Name="main.cpp"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
   <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
@@ -92,12 +108,4 @@
       </Completion>
     </Configuration>
   </Settings>
-  <VirtualDirectory Name="src">
-    <File Name="sum_of_subsets.cpp"/>
-    <File Name="subsets.cpp"/>
-    <File Name="N_QUEENS.cpp"/>
-    <File Name="main.cpp"/>
-  </VirtualDirectory>
-  <Dependencies Name="Debug"/>
-  <Dependencies Name="Release"/>
 </CodeLite_Project>

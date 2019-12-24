@@ -34,4 +34,9 @@ public:
     }
 };
 
-//Simple level order traversal
+//Zig-zag traversal
+void zigzag(Node *root){
+    //two stacks...left_to_right flag....swap stack after each level
+    
+    
+}

@@ -29,7 +29,7 @@ public:
             
             if(i-left+1 > max_freq+k) {
                 //now window has one extra char...so acceptable window is "i-left" not "i-left+1"
-                //AABA: correct window size = 4
+                //AABA: correct window size = 4 for K=1
                 //AABC: correct window size = 3
                 max_window = max(max_window, i-left);
                 mp[s[left]]--;

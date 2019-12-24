@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="graphs" Version="10.0.0" InternalType="Console">
+<CodeLite_Project Name="graphs" Version="11000" InternalType="Console">
   <Description/>
   <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="bridge_cut_edge.cpp"/>
+    <File Name="articulation_point_cut_vertex.cpp"/>
+    <File Name="word_ladder_ii.cpp"/>
+    <File Name="word_ladder_bfs.cpp"/>
+    <File Name="main.cpp"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
   <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
@@ -92,11 +101,4 @@
       </Completion>
     </Configuration>
   </Settings>
-  <VirtualDirectory Name="src">
-    <File Name="word_ladder_ii.cpp"/>
-    <File Name="word_ladder_bfs.cpp"/>
-    <File Name="main.cpp"/>
-  </VirtualDirectory>
-  <Dependencies Name="Debug"/>
-  <Dependencies Name="Release"/>
 </CodeLite_Project>

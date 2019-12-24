@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="tree_bst" Version="10.0.0" InternalType="Console">
+<CodeLite_Project Name="tree_bst" Version="11000" InternalType="Console">
   <Description/>
   <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="traversal_prede_succe.cpp"/>
+    <File Name="infix_postfix_prefix_expression.cpp"/>
+    <File Name="tree_from_2_traversals.cpp"/>
+    <File Name="diameter_tree.cpp"/>
+    <File Name="LCA.cpp"/>
+    <File Name="tree_structure.cpp"/>
+    <File Name="lvl_order_traversal.cpp"/>
+    <File Name="main.cpp"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
   <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
@@ -92,10 +104,4 @@
       </Completion>
     </Configuration>
   </Settings>
-  <VirtualDirectory Name="src">
-    <File Name="lvl_order_traversal.cpp"/>
-    <File Name="main.cpp"/>
-  </VirtualDirectory>
-  <Dependencies Name="Debug"/>
-  <Dependencies Name="Release"/>
 </CodeLite_Project>

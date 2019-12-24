@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="ALGO_NOTES" Version="10.0.0" InternalType="">
+<CodeLite_Project Name="ALGO_NOTES" Version="11000" InternalType="">
   <VirtualDirectory Name="STL">
     <File Name="notes/STL"/>
   </VirtualDirectory>
   <VirtualDirectory Name="notes">
+    <File Name="notes/TAIL_RECURSIVE"/>
+    <File Name="notes/ARRAY_TRICKS"/>
     <File Name="notes/BACKTRACK_BRANCHandBOUND"/>
     <File Name="notes/TRIE"/>
     <File Name="notes/SORTING"/>
@@ -13,6 +15,7 @@
   </VirtualDirectory>
   <Description/>
   <Dependencies/>
+  <Dependencies Name="Debug"/>
   <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
@@ -66,5 +69,4 @@
       </Completion>
     </Configuration>
   </Settings>
-  <Dependencies Name="Debug"/>
 </CodeLite_Project>

@@ -8,7 +8,7 @@
   <Project Name="graphs" Path="graphs/graphs.project" Active="No"/>
   <Project Name="tree_bst" Path="tree_bst/tree_bst.project" Active="No"/>
   <Project Name="trie_prefix_suffix" Path="trie_prefix_suffix/trie_prefix_suffix.project" Active="No"/>
-  <Project Name="slow_fast_pointers" Path="slow_fast_pointers/slow_fast_pointers.project" Active="No"/>
+  <Project Name="linked_list_slow_fast_ptrs" Path="slow_fast_pointers/slow_fast_pointers.project" Active="No"/>
   <Project Name="interval_problems" Path="interval_problems/interval_problems.project" Active="No"/>
   <Project Name="sorting" Path="sorting/sorting.project" Active="No"/>
   <Project Name="bit_operations" Path="bit_operations/bit_operations.project" Active="No"/>
@@ -16,6 +16,10 @@
   <Project Name="heaps_priority_queue" Path="heaps_priority_queue/heaps_priority_queue.project" Active="No"/>
   <Project Name="ALGO_NOTES" Path="ALGO_NOTES/ALGO_NOTES.project" Active="Yes"/>
   <Project Name="COMPANY_QUESTION_TIPS" Path="COMPANY_QUESTION_TIPS/COMPANY_QUESTION_TIPS.project"/>
+  <Project Name="array_related" Path="array_related/array_related.project"/>
+  <Project Name="modified_binary_search" Path="modified_binary_search/modified_binary_search.project"/>
+  <Project Name="Stack_Queue_Circular" Path="STACK_QUEUE_usage/STACK_QUEUE_usage.project"/>
+  <Project Name="DESIGN_DS_CODING" Path="DESIGN_DS_CODING/DESIGN_DS_CODING.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -27,7 +31,7 @@
       <Project Name="graphs" ConfigName="Debug"/>
       <Project Name="tree_bst" ConfigName="Debug"/>
       <Project Name="trie_prefix_suffix" ConfigName="Debug"/>
-      <Project Name="slow_fast_pointers" ConfigName="Debug"/>
+      <Project Name="linked_list_slow_fast_ptrs" ConfigName="Debug"/>
       <Project Name="interval_problems" ConfigName="Debug"/>
       <Project Name="sorting" ConfigName="Debug"/>
       <Project Name="bit_operations" ConfigName="Debug"/>
@@ -35,6 +39,10 @@
       <Project Name="heaps_priority_queue" ConfigName="Debug"/>
       <Project Name="ALGO_NOTES" ConfigName="Debug"/>
       <Project Name="COMPANY_QUESTION_TIPS" ConfigName="Debug"/>
+      <Project Name="array_related" ConfigName="Debug"/>
+      <Project Name="modified_binary_search" ConfigName="Debug"/>
+      <Project Name="Stack_Queue_Circular" ConfigName="Debug"/>
+      <Project Name="DESIGN_DS_CODING" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -46,7 +54,7 @@
       <Project Name="graphs" ConfigName="Release"/>
       <Project Name="tree_bst" ConfigName="Release"/>
       <Project Name="trie_prefix_suffix" ConfigName="Release"/>
-      <Project Name="slow_fast_pointers" ConfigName="Release"/>
+      <Project Name="linked_list_slow_fast_ptrs" ConfigName="Release"/>
       <Project Name="interval_problems" ConfigName="Release"/>
       <Project Name="sorting" ConfigName="Release"/>
       <Project Name="bit_operations" ConfigName="Release"/>
@@ -54,6 +62,10 @@
       <Project Name="heaps_priority_queue" ConfigName="Release"/>
       <Project Name="ALGO_NOTES" ConfigName="Debug"/>
       <Project Name="COMPANY_QUESTION_TIPS" ConfigName="Debug"/>
+      <Project Name="array_related" ConfigName="Release"/>
+      <Project Name="modified_binary_search" ConfigName="Release"/>
+      <Project Name="Stack_Queue_Circular" ConfigName="Release"/>
+      <Project Name="DESIGN_DS_CODING" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

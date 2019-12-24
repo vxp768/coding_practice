@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="sliding_window" Version="10.0.0" InternalType="Console">
+<CodeLite_Project Name="sliding_window" Version="11000" InternalType="Console">
   <Description/>
   <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="longest_subarr_with_ones_after_replacement.cpp"/>
+    <File Name="longest_substring_same_after_replacement.cpp"/>
+    <File Name="no_repeat_substring.cpp"/>
+    <File Name="fruits_into_baskets.cpp"/>
+    <File Name="longest_substr_k_distinct_char.cpp"/>
+    <File Name="smallest_subarr_given_sum.cpp"/>
+    <File Name="max_sum_subarray_size_K.cpp"/>
+    <File Name="sliding_window_median.cpp"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
   <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
@@ -92,17 +104,4 @@
       </Completion>
     </Configuration>
   </Settings>
-  <VirtualDirectory Name="src">
-    <File Name="longest_subarr_with_ones_after_replacement.cpp"/>
-    <File Name="longest_substring_same_after_replacement.cpp"/>
-    <File Name="no_repeat_substring.cpp"/>
-    <File Name="fruits_into_baskets.cpp"/>
-    <File Name="longest_substr_k_distinct_char.cpp"/>
-    <File Name="smallest_subarr_given_sum.cpp"/>
-    <File Name="max_sum_subarray_size_K.cpp"/>
-    <File Name="sliding_window_median.cpp"/>
-    <File Name="main.cpp"/>
-  </VirtualDirectory>
-  <Dependencies Name="Debug"/>
-  <Dependencies Name="Release"/>
 </CodeLite_Project>

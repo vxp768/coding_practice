@@ -10,13 +10,13 @@ public:
         if (size <= 0) return 0;
         if (k <= 1) return 0;
         
-        int count=0;
+        int count = 0;
         int prod = 1;
         
         int left=0;
-        for (int right=0; right<size; right++){
+        for (int right=0; right<size; right++) {
             prod = prod*nums[right];
-            while (prod>= k){
+            while (prod>= k) {
                 prod = prod/nums[left];
                 left++;
             }

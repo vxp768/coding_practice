@@ -1,0 +1,52 @@
+https://en.wikipedia.org/wiki/Tail_call
+https://stackoverflow.com/questions/310974/what-is-tail-call-optimization
+
+unsigned fac(unsigned n)
+{
+    if (n < 2) return 1;
+    unsigned acc = fac(n - 1);
+    return n * acc;
+}
+
+********* MODIFY TO *******
+
+unsigned fac(unsigned n)
+{
+    return fac_tailrec(1, n);
+}
+
+unsigned fac_tailrec(unsigned acc, unsigned n)
+{
+    if (n < 2) return acc;
+    return fac_tailrec(n * acc, n - 1);
+}
+Because we immediately return after the tail call, we can discard the previous stackframe before invoking the function in tail position, 
+or, in case of recursive functions, reuse the stackframe as-is.
+
+  call factorial (4)
+   call fact-iter (1 4)
+    call fact-iter (4 3)
+     call fact-iter (12 2)
+      call fact-iter (24 1)
+      return 24
+     return 24
+    return 24
+   return 24
+  return 24
+  
+into the more efficient variant, in terms of both space and time:
+
+  call factorial (4)
+   call fact-iter (1 4)
+   replace arguments with (4 3)
+   replace arguments with (12 2)
+   replace arguments with (24 1)
+   return 24
+  return 24
+  
+  
+  Stack frame is manipulated by compiler and results in saving lot of space on heap/stack.
+  
+  This reorganization saves space because no state except for the calling function's address needs to be saved, 
+  either on the stack or on the heap, and the call stack frame for fact-iter is reused for the intermediate results storage. 
+  This also means that the programmer need not worry about running out of stack or heap space for extremely deep recursions.
