@@ -77,9 +77,11 @@ link_directories(
 
 # Define the CXX sources
 set ( CXX_SRCS
+    ${CMAKE_CURRENT_LIST_DIR}/queue_using_stack.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/stack_using_queue.cpp
     ${CMAKE_CURRENT_LIST_DIR}/main.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/next_greater_elem_circular.cpp
     ${CMAKE_CURRENT_LIST_DIR}/next_greater_elem_arr.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/next_greater_elem_circular.cpp
 )
 
 set_source_files_properties(

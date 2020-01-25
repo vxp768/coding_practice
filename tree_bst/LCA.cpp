@@ -45,3 +45,23 @@ Node *LCA(Node *root, Node *node1, Node *node2) {
         return root;   //this is LCA if one node in left subtree and another in right subtree
     return left_lca?left_lca:right_lca;    //LCA already found...keep returning it in recursion
 }
+
+
+
+//        LCA  in BST
+Node *LCA_BST(Node *root, Node *n1, Node *n2){
+    if(root == NULL)
+        return NULL:
+    while(1) {
+        // find first node splitting the data in n1 and n2
+        if((n1->data < root->data && n2->data > root->data) ||
+           (n1->data > root->data && n2->data < root->data)) {
+               return root;
+        }
+        //both n1 and n2 lie on same side of root
+        if(n1->data < root->data)
+            root = root->left;
+        else
+            root = root->right;
+    }
+}

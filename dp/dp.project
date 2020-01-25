@@ -3,6 +3,10 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="concatenation_word.cpp"/>
+    <File Name="maxlen_uniq_char_string_array.cpp"/>
+    <File Name="wildcard_matching.cpp"/>
+    <File Name="regular_expression_match.cpp"/>
     <File Name="word_break_II.cpp"/>
     <File Name="word_break.cpp"/>
     <File Name="longest_common_substring.cpp"/>

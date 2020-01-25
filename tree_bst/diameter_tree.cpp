@@ -1,5 +1,5 @@
 
-/* Longest path between two nodes*/
+/* Width of tree or Longest path between two nodes*/
 
 int diameter(Node *root, int *height) {
     if(root==NULL) {

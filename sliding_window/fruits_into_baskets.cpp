@@ -5,6 +5,8 @@ You start at any tree of your choice, then repeatedly perform the following step
 
 Add one piece of fruit from this tree to your baskets.  If you cannot, stop.
 Move to the next tree to the right of the current tree.  If there is no tree to the right, stop.
+
+ Each basket can have only 1 type of fruit. Tree types repeat.
 */
 
 class Solution {

@@ -1,5 +1,5 @@
 // Returns number of pairs in arr[0..n-1] with sum equal 
-// to 'sum' 
+// to 'sum'
 int getPairsCount(int arr[], int n, int sum) 
 { 
     unordered_map<int, int> mp; 

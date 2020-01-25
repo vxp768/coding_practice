@@ -93,6 +93,7 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="min_swap_to_srot_array.cpp"/>
     <File Name="buy_sell_generic.cpp"/>
     <File Name="best_time_buy_sell_stock_II.cpp"/>
     <File Name="best_time_buy_sell_stock.cpp"/>

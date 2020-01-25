@@ -83,7 +83,7 @@ set ( CXX_SRCS
     ${CMAKE_CURRENT_LIST_DIR}/best_time_buy_sell_stock.cpp
     ${CMAKE_CURRENT_LIST_DIR}/buy_sell_generic.cpp
     ${CMAKE_CURRENT_LIST_DIR}/best_time_buy_sell_stock_II.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/find_dup_num_arr.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/min_swap_to_srot_array.cpp
     ${CMAKE_CURRENT_LIST_DIR}/maximum_sum_subarray.cpp
 )
 

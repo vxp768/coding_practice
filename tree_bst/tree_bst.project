@@ -3,6 +3,11 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="tree_traversal.cpp"/>
+    <File Name="threaded_binary_tree.cpp"/>
+    <File Name="tree_bst_dll.cpp"/>
+    <File Name="bst_insert_del_pred_successor.cpp"/>
+    <File Name="expression_tree_from_postfix_prefix_infix.cpp"/>
     <File Name="traversal_prede_succe.cpp"/>
     <File Name="infix_postfix_prefix_expression.cpp"/>
     <File Name="tree_from_2_traversals.cpp"/>

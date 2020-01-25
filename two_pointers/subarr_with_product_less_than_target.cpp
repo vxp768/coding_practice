@@ -20,7 +20,7 @@ public:
                 prod = prod/nums[left];
                 left++;
             }
-            count += right - left + 1; //this gives number of pairs
+            count += right - left + 1; //this gives number of sub arrays
         }
         return count;
     }
