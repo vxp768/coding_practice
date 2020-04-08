@@ -3,6 +3,7 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="partition_set_into_k_subset.cpp"/>
     <File Name="combination_sum.cpp"/>
     <File Name="combinations.cpp"/>
     <File Name="palindrome_permutation.cpp"/>

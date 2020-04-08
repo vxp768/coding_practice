@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="array_related" Version="11000" InternalType="Library">
-  <VirtualDirectory Name="memory"/>
+<CodeLite_Project Name="Divide_and_Conquer" Version="11000" InternalType="Library">
   <Description/>
   <Dependencies/>
   <Settings Type="Static Library">
@@ -94,13 +93,6 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="min_swap_to_srot_array.cpp"/>
-    <File Name="buy_sell_generic.cpp"/>
-    <File Name="best_time_buy_sell_stock_II.cpp"/>
-    <File Name="best_time_buy_sell_stock.cpp"/>
-    <File Name="max_product_subarray.cpp"/>
-    <File Name="maximum_sum_subarray.cpp"/>
-    <File Name="largest_rectangle_histogram.cpp"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
 </CodeLite_Project>

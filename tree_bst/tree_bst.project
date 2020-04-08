@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Project Name="tree_bst" Version="11000" InternalType="Console">
+  <VirtualDirectory Name="TRAVERSAL">
+    <File Name="TRAVERSAL/NON_recursive_traversal.cpp"/>
+    <File Name="lvl_order_traversal.cpp"/>
+    <File Name="tree_from_2_traversals.cpp"/>
+    <File Name="tree_traversal.cpp"/>
+  </VirtualDirectory>
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
-    <File Name="tree_traversal.cpp"/>
+    <File Name="bst_insert_del.cpp"/>
+    <File Name="segment_tree.cpp"/>
+    <File Name="successor_predecessor_inorder.cpp"/>
+    <File Name="Notes"/>
     <File Name="threaded_binary_tree.cpp"/>
     <File Name="tree_bst_dll.cpp"/>
-    <File Name="bst_insert_del_pred_successor.cpp"/>
     <File Name="expression_tree_from_postfix_prefix_infix.cpp"/>
-    <File Name="traversal_prede_succe.cpp"/>
-    <File Name="infix_postfix_prefix_expression.cpp"/>
-    <File Name="tree_from_2_traversals.cpp"/>
     <File Name="diameter_tree.cpp"/>
     <File Name="LCA.cpp"/>
     <File Name="tree_structure.cpp"/>
-    <File Name="lvl_order_traversal.cpp"/>
-    <File Name="main.cpp"/>
   </VirtualDirectory>
   <Dependencies Name="Debug"/>
   <Dependencies Name="Release"/>

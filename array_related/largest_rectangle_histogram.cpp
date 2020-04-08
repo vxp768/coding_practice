@@ -34,7 +34,7 @@ public:
 
 
 //BRUTE FORCE: start at each rectangle...loop thru for rest of rectangles and keep track of min heights
-//             multiple min height with number of rectangles and update max_area
+//             multiply min height with number of rectangles and update max_area
 //O(N^2)
 class Solution {
 public:

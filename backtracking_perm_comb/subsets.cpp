@@ -1,4 +1,4 @@
-//Generate all the subsets from array of integers
+//Generate all the subsets from array of unique integers
 
 //BRUTE FORCE RECURSIVE
 class Solution {
@@ -54,8 +54,8 @@ public:
             int new_num = nums[i];
             int subset_size_sofar = final_result.size();
             for(int j=0; j<subset_size_sofar; j++) {
-                final_result.push_back(final_result[j]);
-                final_result.back().push_back(new_num);
+                final_result.push_back(final_result[j]);  //push set in end
+                final_result.back().push_back(new_num);   // add new num to the set added above
             }
         }
         return final_result;

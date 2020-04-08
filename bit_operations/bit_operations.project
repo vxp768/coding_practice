@@ -3,6 +3,10 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="bit_string_long_len.cpp"/>
+    <File Name="popcount.cpp"/>
+    <File Name="bit_string.cpp"/>
+    <File Name="digits_to_binary.cpp"/>
     <File Name="partition_array_equal_sum.cpp"/>
     <File Name="notes"/>
     <File Name="main.cpp"/>

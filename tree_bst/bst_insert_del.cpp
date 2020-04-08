@@ -72,8 +72,3 @@ Node *FindMax(Node *root) {
      */
     return root;
 }
-//inorder predecessor
-Node *BST_predecessor(Node *root) {
-    
-}
-//inorder successor

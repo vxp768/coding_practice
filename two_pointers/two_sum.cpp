@@ -14,7 +14,6 @@ public:
                 result.push_back(i);
                 return result;
             }
-            
             hash[nums[i]] = i;
         }
         return result;
@@ -30,7 +29,6 @@ public:
         if(A.size()<2)
             return -1;
         sort(A.begin(), A.end());
-        int closest_diff=INT_MAX;
         int max_sum=0;
         int sum;
         int left = 0, right = A.size()-1;

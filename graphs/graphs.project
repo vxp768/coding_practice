@@ -3,11 +3,14 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="shortest_path.cpp"/>
+    <File Name="strongly_connected_components.cpp"/>
+    <File Name="toposort.cpp"/>
+    <File Name="union_find_detect_cycle.cpp"/>
     <File Name="bridge_cut_edge.cpp"/>
     <File Name="articulation_point_cut_vertex.cpp"/>
     <File Name="word_ladder_ii.cpp"/>
     <File Name="word_ladder_bfs.cpp"/>
-    <File Name="main.cpp"/>
   </VirtualDirectory>
   <Dependencies Name="Debug"/>
   <Dependencies Name="Release"/>

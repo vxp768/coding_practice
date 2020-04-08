@@ -1,0 +1,8 @@
+1. How to handle duplicates in BST?
+A: option 1:  simply keep adding dups to the right
+
+   option 2:  augment the node to keep count of how many times key was added.
+              increment count for each add and decrement for each delete.
+              This solution is better for AVL or RB tree as self-balancing can be taken care of easily.
+              
+By definition BST is for unique keys.

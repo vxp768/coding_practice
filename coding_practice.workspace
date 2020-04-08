@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="coding_practice" Database="" Version="10.0.0">
-  <Project Name="dp_strings" Path="dp/dp.project" Active="No"/>
+  <Project Name="DP" Path="dp/dp.project" Active="No"/>
   <Project Name="backtrack_perm_comb_subset" Path="backtracking_perm_comb/backtracking_perm_comb.project" Active="No"/>
   <Project Name="string_pattern" Path="string_pattern/string_pattern.project" Active="No"/>
   <Project Name="sliding_window" Path="sliding_window/sliding_window.project" Active="No"/>
@@ -20,10 +20,12 @@
   <Project Name="modified_binary_search" Path="modified_binary_search/modified_binary_search.project"/>
   <Project Name="Stack_Queue_Circular" Path="STACK_QUEUE_usage/STACK_QUEUE_usage.project"/>
   <Project Name="DESIGN_DS_CODING" Path="DESIGN_DS_CODING/DESIGN_DS_CODING.project"/>
+  <Project Name="Divide_and_Conquer" Path="Divide_and_Conquer/Divide_and_Conquer.project"/>
+  <Project Name="Memory" Path="Memory/Memory.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
-      <Project Name="dp_strings" ConfigName="Debug"/>
+      <Project Name="DP" ConfigName="Debug"/>
       <Project Name="backtrack_perm_comb_subset" ConfigName="Debug"/>
       <Project Name="string_pattern" ConfigName="Debug"/>
       <Project Name="sliding_window" ConfigName="Debug"/>
@@ -43,10 +45,12 @@
       <Project Name="modified_binary_search" ConfigName="Debug"/>
       <Project Name="Stack_Queue_Circular" ConfigName="Debug"/>
       <Project Name="DESIGN_DS_CODING" ConfigName="Debug"/>
+      <Project Name="Divide_and_Conquer" ConfigName="Debug"/>
+      <Project Name="Memory" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
-      <Project Name="dp_strings" ConfigName="Release"/>
+      <Project Name="DP" ConfigName="Release"/>
       <Project Name="backtrack_perm_comb_subset" ConfigName="Release"/>
       <Project Name="string_pattern" ConfigName="Release"/>
       <Project Name="sliding_window" ConfigName="Release"/>
@@ -66,6 +70,8 @@
       <Project Name="modified_binary_search" ConfigName="Release"/>
       <Project Name="Stack_Queue_Circular" ConfigName="Release"/>
       <Project Name="DESIGN_DS_CODING" ConfigName="Release"/>
+      <Project Name="Divide_and_Conquer" ConfigName="Release"/>
+      <Project Name="Memory" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

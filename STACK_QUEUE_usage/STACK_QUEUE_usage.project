@@ -93,6 +93,8 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="../tree_bst/expression_tree.cpp"/>
+    <File Name="../tree_bst/infix_postfix_prefix_expression.cpp"/>
     <File Name="queue_using_stack.cpp"/>
     <File Name="stack_using_queue.cpp"/>
     <File Name="next_greater_elem_circular.cpp"/>

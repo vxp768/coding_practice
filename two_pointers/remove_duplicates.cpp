@@ -6,8 +6,8 @@ public:
         int i=0;
         if(nums.size()==0)
             return 0;
-        for(int j=0; j<nums.size(); j++){
-            if(nums[i] != nums[j]){
+        for(int j=0; j<nums.size(); j++) {
+            if(nums[i] != nums[j]) {
                 i++;
                 nums[i] = nums[j];
             }

@@ -1,3 +1,8 @@
+/*
+ * Array has dups in it.
+ * simple method would result in repetition of same subset. e.g. {1,2,3} could be repeated if there are dups of 2.
+ * [4, 1, 2, 2, 3] ==== should not multiple subset of [4, 1, 2]
+ */
 class Solution {
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
@@ -15,7 +20,7 @@ public:
             for(int j=0; j<subset_size; j++) {
                 vector<int> tmp_subset = final_result[j];
                 int k=count;
-                while(k){
+                while(k) {
                     tmp_subset.push_back(new_num);
                     final_result.push_back(tmp_subset);
                     k--;

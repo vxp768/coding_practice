@@ -18,6 +18,25 @@ Node *Buildbinarytree(vector<int> &inorder, vector<int> &preorder, int in_start,
     
     return node;
 }
+// Prints postorder traversal from given inorder and preorder traversals 
+void printPostOrder(int in[], int pre[], int n) 
+{ 
+    // The first element in pre[] is always root, search it 
+    // in in[] to find left and right subtrees 
+    int root = search(in, pre[0], n); 
+  
+    // If left subtree is not empty, print left subtree 
+    if (root != 0) 
+        printPostOrder(in, pre + 1, root); 
+  
+    // If right subtree is not empty, print right subtree 
+    if (root != n - 1) 
+        printPostOrder(in + root + 1, pre + root + 1, n - root - 1); 
+  
+    // Print root 
+    cout << pre[0] << " "; 
+} 
+  
 
 /* Tree can be re-constructed only if in-order is given as one of traversal
     1. inorder and preorder   2. inorder and postorder   3. inorder and level-order

@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="dp_strings" Version="11000" InternalType="Console">
+<CodeLite_Project Name="DP" Version="11000" InternalType="Console">
+  <VirtualDirectory Name="strings">
+    <File Name="anagram_substring_count.cpp"/>
+    <File Name="concatenation_word.cpp"/>
+    <File Name="anagram_substring_search.cpp"/>
+    <File Name="longest_common_subsequence.cpp"/>
+    <File Name="longest_common_substring.cpp"/>
+    <File Name="longest_increasing_subsequence.cpp"/>
+    <File Name="longest_palindromic_subsequence.cpp"/>
+    <File Name="longest_palindromic_substring.cpp"/>
+    <File Name="maxlen_uniq_char_string_array.cpp"/>
+    <File Name="regular_expression_match.cpp"/>
+    <File Name="wildcard_matching.cpp"/>
+    <File Name="word_break_II.cpp"/>
+    <File Name="word_break.cpp"/>
+  </VirtualDirectory>
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
-    <File Name="concatenation_word.cpp"/>
-    <File Name="maxlen_uniq_char_string_array.cpp"/>
-    <File Name="wildcard_matching.cpp"/>
-    <File Name="regular_expression_match.cpp"/>
-    <File Name="word_break_II.cpp"/>
-    <File Name="word_break.cpp"/>
-    <File Name="longest_common_substring.cpp"/>
-    <File Name="longest_palindromic_subsequence.cpp"/>
-    <File Name="longest_palindromic_substring.cpp"/>
-    <File Name="longest_common_subsequence.cpp"/>
-    <File Name="main.cpp"/>
+    <File Name="knapsack.cpp"/>
+    <File Name="aaa_tricky_question"/>
   </VirtualDirectory>
   <Dependencies Name="Debug"/>
   <Dependencies Name="Release"/>

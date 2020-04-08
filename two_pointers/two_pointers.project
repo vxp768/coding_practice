@@ -12,7 +12,6 @@
     <File Name="square_sorted_arr.cpp"/>
     <File Name="remove_duplicates.cpp"/>
     <File Name="pair_with_target_sum.cpp"/>
-    <File Name="main.cpp"/>
   </VirtualDirectory>
   <Dependencies Name="Debug"/>
   <Dependencies Name="Release"/>

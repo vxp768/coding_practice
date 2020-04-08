@@ -24,7 +24,7 @@ public:
             for(int j=0; j<res_idx[i].size(); j++){
                 tmp += res_idx[i][j] + " ";
             }
-            tmp = tmp.substr(0,tmp.size()-1);
+            tmp = tmp.substr(0,tmp.size()-1); //remove last space char
             res.push_back(tmp);
         }
         return res;

@@ -3,7 +3,7 @@
 cmake_minimum_required(VERSION 2.8.11)
 
 # Project name
-project(Stack_Queue_Circular)
+project(Memory)
 
 # This setting is useful for providing JSON file used by CodeLite for code completion
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
@@ -21,7 +21,7 @@ set(CONFIGURATION_NAME "Debug")
 
 # Top project
 # Define some variables
-set(PROJECT_Stack_Queue_Circular_PATH "${CMAKE_CURRENT_LIST_DIR}")
+set(PROJECT_Memory_PATH "${CMAKE_CURRENT_LIST_DIR}")
 set(WORKSPACE_PATH "${CMAKE_CURRENT_LIST_DIR}/..")
 
 
@@ -77,13 +77,8 @@ link_directories(
 
 # Define the CXX sources
 set ( CXX_SRCS
-    ${CMAKE_CURRENT_LIST_DIR}/main.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/next_greater_elem_arr.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/next_greater_elem_circular.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/stack_using_queue.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/../tree_bst/expression_tree.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/queue_using_stack.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/../tree_bst/infix_postfix_prefix_expression.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/malloc_realloc_custom/malloc.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Alignment/aligned_malloc.cpp
 )
 
 set_source_files_properties(
@@ -102,7 +97,7 @@ endif(WIN32)
 # Place your code here
 #}}}}
 
-add_library(Stack_Queue_Circular ${RC_SRCS} ${CXX_SRCS} ${C_SRCS})
+add_library(Memory ${RC_SRCS} ${CXX_SRCS} ${C_SRCS})
 
 
 
