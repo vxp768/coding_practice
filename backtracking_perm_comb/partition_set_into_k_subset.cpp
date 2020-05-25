@@ -11,7 +11,8 @@ Explanation: Let the set be {1, 2, 3}, we can partition
 S(n,k)  = k*S(n-1, k) + S(n-1, k-1) 
 
 S(n-1, k):       //new elem '4' can be added to any one of the subset...K=2 ways to add in above case hence multiplied by K
-                 e.g.: {{1,2,4}, {3}}   or {{1,2}, {3,4}}
+                 e.g.: {{1,2,4}, {3}}   or {{1,2}, {3,4}}       === k ways
+                       {{1,4},   {2,3}}  or {{1},   {2,3,4}}    === again k ways
 S(n-1, k-1):     //new elem is added as new subset with single elem in it
                 {{1,2,3}, {4}}
 */

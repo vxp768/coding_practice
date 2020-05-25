@@ -1,3 +1,6 @@
+
+//https://www.geeksforgeeks.org/count-total-anagram-substrings/
+
 int countOfAnagramSubstring(string str) 
 { 
 	int N = str.length(); 
@@ -18,7 +21,7 @@ int countOfAnagramSubstring(string str)
 	for (auto it=mp.begin(); it!=mp.end(); it++) 
 	{ 
 		int freq = it->second; 
-		result += ((freq) * (freq-1))/2; 
+		result += ((freq) * (freq-1))/2;   //possible pairs
 	} 
 	return result; 
 } 

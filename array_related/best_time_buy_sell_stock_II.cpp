@@ -25,9 +25,9 @@ public:
             B[i] = max(B[i-1], R[i-1]-prices[i]);
             //if price is higher then update the sell price
             S[i] = max(S[i-1], B[i-1]+prices[i]);
-            //if there is no purchase at i R[i] will be higher than B[i]
-            //since with if we buy then we subtract prices[i] from the money that was there
-            R[i] = max(R[i-1], max(B[i-1], S[i-1]));
+            //if there is no purchase at i, R[i] will be higher than B[i]
+            //since if we buy then we subtract prices[i] from the money that was there
+            R[i] = max(R[i-1], S[i-1]);
         }
         return S[prices.size()-1];
     }

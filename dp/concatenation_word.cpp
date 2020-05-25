@@ -1,5 +1,5 @@
 /*
-Given a list of words (without duplicates), please write a program that returns all concatenated words in the given list of words.
+Given a list of words (without duplicates),  write a program that returns all concatenated words in the given list of words.
 
  Input: ["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"]
  Output: ["catsdogcats","dogcatsdog","ratcatdogcat"]

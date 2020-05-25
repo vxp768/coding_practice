@@ -4,7 +4,7 @@
  
  //Postfix to expression tree
  
- // Returns root of constructed tree for given 
+// Returns root of constructed tree for given 
 // postfix expression 
 et* constructTree(char postfix[]) 
 { 

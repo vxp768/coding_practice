@@ -2,7 +2,7 @@
 #include <string>
 #include <algorithm> 
 /*
- *Find all positions of the a SubString in given String
+ *Find all positions of a SubString in given String
  */
 void findAllOccurances(vector<size_t> & vec, string data, string toSearch)
 {

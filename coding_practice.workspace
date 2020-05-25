@@ -12,16 +12,14 @@
   <Project Name="interval_problems" Path="interval_problems/interval_problems.project" Active="No"/>
   <Project Name="sorting" Path="sorting/sorting.project" Active="No"/>
   <Project Name="bit_operations" Path="bit_operations/bit_operations.project" Active="No"/>
-  <Project Name="top_K_elements" Path="top_K_elements/top_K_elements.project" Active="No"/>
   <Project Name="heaps_priority_queue" Path="heaps_priority_queue/heaps_priority_queue.project" Active="No"/>
-  <Project Name="ALGO_NOTES" Path="ALGO_NOTES/ALGO_NOTES.project" Active="Yes"/>
-  <Project Name="COMPANY_QUESTION_TIPS" Path="COMPANY_QUESTION_TIPS/COMPANY_QUESTION_TIPS.project"/>
-  <Project Name="array_related" Path="array_related/array_related.project"/>
-  <Project Name="modified_binary_search" Path="modified_binary_search/modified_binary_search.project"/>
-  <Project Name="Stack_Queue_Circular" Path="STACK_QUEUE_usage/STACK_QUEUE_usage.project"/>
-  <Project Name="DESIGN_DS_CODING" Path="DESIGN_DS_CODING/DESIGN_DS_CODING.project"/>
-  <Project Name="Divide_and_Conquer" Path="Divide_and_Conquer/Divide_and_Conquer.project"/>
-  <Project Name="Memory" Path="Memory/Memory.project"/>
+  <Project Name="ALGO_NOTES" Path="ALGO_NOTES/ALGO_NOTES.project" Active="No"/>
+  <Project Name="array_related" Path="array_related/array_related.project" Active="Yes"/>
+  <Project Name="modified_binary_search" Path="modified_binary_search/modified_binary_search.project" Active="No"/>
+  <Project Name="Stack_Queue_Circular" Path="STACK_QUEUE_usage/STACK_QUEUE_usage.project" Active="No"/>
+  <Project Name="DESIGN_DS_CODING" Path="DESIGN_DS_CODING/DESIGN_DS_CODING.project" Active="No"/>
+  <Project Name="Divide_and_Conquer" Path="Divide_and_Conquer/Divide_and_Conquer.project" Active="No"/>
+  <Project Name="Memory" Path="Memory/Memory.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -37,10 +35,8 @@
       <Project Name="interval_problems" ConfigName="Debug"/>
       <Project Name="sorting" ConfigName="Debug"/>
       <Project Name="bit_operations" ConfigName="Debug"/>
-      <Project Name="top_K_elements" ConfigName="Debug"/>
       <Project Name="heaps_priority_queue" ConfigName="Debug"/>
       <Project Name="ALGO_NOTES" ConfigName="Debug"/>
-      <Project Name="COMPANY_QUESTION_TIPS" ConfigName="Debug"/>
       <Project Name="array_related" ConfigName="Debug"/>
       <Project Name="modified_binary_search" ConfigName="Debug"/>
       <Project Name="Stack_Queue_Circular" ConfigName="Debug"/>
@@ -62,10 +58,8 @@
       <Project Name="interval_problems" ConfigName="Release"/>
       <Project Name="sorting" ConfigName="Release"/>
       <Project Name="bit_operations" ConfigName="Release"/>
-      <Project Name="top_K_elements" ConfigName="Release"/>
       <Project Name="heaps_priority_queue" ConfigName="Release"/>
       <Project Name="ALGO_NOTES" ConfigName="Debug"/>
-      <Project Name="COMPANY_QUESTION_TIPS" ConfigName="Debug"/>
       <Project Name="array_related" ConfigName="Release"/>
       <Project Name="modified_binary_search" ConfigName="Release"/>
       <Project Name="Stack_Queue_Circular" ConfigName="Release"/>

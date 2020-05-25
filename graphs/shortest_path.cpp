@@ -1,13 +1,8 @@
-/*
- * 1. Modified BFS in unweighted graph
- * 2. Dijkstra in weighted graph (+ve edge weights). using min_heap
- * 3. Bellmanford in graph with -ve edges
-*/
 
-// 2. Dijkstra: Prints shortest paths from src to all other vertices
+// Dijkstra: Prints shortest paths from src to all other vertices
 // iPair ==>  Integer Pair 
 typedef pair<int, int> iPair; 
-  
+
 // This class represents a directed graph using 
 // adjacency list representation 
 class Graph 
@@ -58,9 +53,9 @@ void Graph::shortestPath(int src)
  */
 void BellmanFord(struct Graph* graph, int src) 
 { 
-    int V = graph->V; 
-    int E = graph->E; 
-    int dist[V]; 
+    int V = graph->V;
+    int E = graph->E;
+    int dist[V];
   
     // Step 1: Initialize distances from src to all other vertices 
     // as INFINITE 
@@ -93,9 +88,7 @@ void BellmanFord(struct Graph* graph, int src)
             printf("Graph contains negative weight cycle"); 
             return; // If negative cycle is detected, simply return 
         } 
-    } 
-  
+    }
     printArr(dist, V); 
-  
     return; 
 } 

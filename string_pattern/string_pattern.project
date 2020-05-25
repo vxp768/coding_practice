@@ -3,13 +3,16 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="../dp/max_len_unique_char.cpp"/>
+    <File Name="../dp/reorganize_string.cpp"/>
+    <File Name="../dp/anagram_substring_count.cpp"/>
+    <File Name="../dp/anagram_substring_search.cpp"/>
+    <File Name="longest_duplicate_string.cpp"/>
+    <File Name="rabin_karp.cpp"/>
     <File Name="find_substr_in_string_all_occur.cpp"/>
     <File Name="perm_string.cpp"/>
     <File Name="split_string.cpp"/>
-    <File Name="main.cpp"/>
   </VirtualDirectory>
-  <Dependencies Name="Debug"/>
-  <Dependencies Name="Release"/>
   <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
@@ -100,4 +103,6 @@
       </Completion>
     </Configuration>
   </Settings>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
 </CodeLite_Project>

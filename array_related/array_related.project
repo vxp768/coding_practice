@@ -94,6 +94,11 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="buy_sell_stock_notes"/>
+    <File Name="search_rotated_array.cpp"/>
+    <File Name="rotated_arr_sorted.cpp"/>
+    <File Name="split_array_consecutive_nos.cpp"/>
+    <File Name="prod_arr_except_self.cpp"/>
     <File Name="min_swap_to_srot_array.cpp"/>
     <File Name="buy_sell_generic.cpp"/>
     <File Name="best_time_buy_sell_stock_II.cpp"/>
@@ -103,4 +108,6 @@
     <File Name="largest_rectangle_histogram.cpp"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
 </CodeLite_Project>

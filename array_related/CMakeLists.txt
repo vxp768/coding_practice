@@ -80,11 +80,15 @@ set ( CXX_SRCS
     ${CMAKE_CURRENT_LIST_DIR}/main.cpp
     ${CMAKE_CURRENT_LIST_DIR}/largest_rectangle_histogram.cpp
     ${CMAKE_CURRENT_LIST_DIR}/max_product_subarray.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/best_time_buy_sell_stock.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/buy_sell_generic.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/best_time_buy_sell_stock_II.cpp
     ${CMAKE_CURRENT_LIST_DIR}/min_swap_to_srot_array.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/best_time_buy_sell_stock.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/best_time_buy_sell_stock_II.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/buy_sell_generic.cpp
     ${CMAKE_CURRENT_LIST_DIR}/maximum_sum_subarray.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/search_rotated_array.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/split_array_consecutive_nos.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/prod_arr_except_self.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/rotated_arr_sorted.cpp
 )
 
 set_source_files_properties(

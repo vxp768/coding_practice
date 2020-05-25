@@ -4,6 +4,7 @@
     <File Name="notes/STL"/>
   </VirtualDirectory>
   <VirtualDirectory Name="notes">
+    <File Name="notes/Binary_Search_array"/>
     <File Name="notes/TAIL_RECURSIVE"/>
     <File Name="notes/ARRAY_TRICKS"/>
     <File Name="notes/BACKTRACK_BRANCHandBOUND"/>
@@ -15,7 +16,6 @@
   </VirtualDirectory>
   <Description/>
   <Dependencies/>
-  <Dependencies Name="Debug"/>
   <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
@@ -69,4 +69,5 @@
       </Completion>
     </Configuration>
   </Settings>
+  <Dependencies Name="Debug"/>
 </CodeLite_Project>

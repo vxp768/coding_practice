@@ -1,4 +1,5 @@
 //PLACE N QUEENS on chess board of size nXn
+// Give all possible arrangements
 
 class Solution {
     vector<vector<string>> final_result;
