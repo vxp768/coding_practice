@@ -37,12 +37,51 @@ void non_recursive_pre_order (Node *root) {
         S.pop();
         root = node->right;
     }
+    
+    //2nd method, space complexity = O(N)
+    S.push(root)
+    while(!S.empty()){
+            TreeNode *node = S.top();
+            S.pop();
+            result.push_back(node->val);
+            if(node->right)
+                S.push(node->right);
+            if(node->left)
+                S.push(node->left);
+    }
 }
+
+
+
 /* This is tricky since both child returns to node, and node should be 
    processed after returning from right child
    It has non-tail recursion: there is an extra statement after the final recursive call to itself
 */
-//Method1: using two stacks  https://www.geeksforgeeks.org/iterative-postorder-traversal/
+//Method 1:
+vector<int> postorderTraversal(TreeNode* root) {
+    stack<TreeNode*> S;
+    vector<int> result;
+    TreeNode *last_node=NULL;
+    TreeNode *node;
+    while(root || !S.empty()){
+        if(root){
+            S.push(root);
+            root = root->left;
+        } else {
+            node = S.top();
+            if (node->right && last_node != node->right){ //TO avoid putting right node again in stack...last_node
+                root = node->right; //update root only if right node is there...else root is NULL
+            } else {
+                last_node = node;
+                result.push_back(node->val);
+                S.pop();
+            }
+        }
+    }
+    return result;
+}
+
+//Method 2: using two stacks  https://www.geeksforgeeks.org/iterative-postorder-traversal/
 void postOrderIterative(Node* root) { 
     if (root == NULL) 
         return; 
@@ -65,7 +104,8 @@ void postOrderIterative(Node* root) {
         cout << node->data << " "; 
     } 
 } 
-//Method 2: using 1 stack
+
+//Method 3: using 1 stack
 void postOrderIterative(Node* root) { 
     // Check for empty tree 
     if (root == NULL) 

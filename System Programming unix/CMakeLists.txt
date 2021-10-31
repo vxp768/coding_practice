@@ -3,7 +3,7 @@
 cmake_minimum_required(VERSION 2.8.11)
 
 # Project name
-project(DESIGN_DS_CODING)
+project(System Programming unix)
 
 # This setting is useful for providing JSON file used by CodeLite for code completion
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
@@ -21,7 +21,7 @@ set(CONFIGURATION_NAME "Debug")
 
 # Top project
 # Define some variables
-set(PROJECT_DESIGN_DS_CODING_PATH "${CMAKE_CURRENT_LIST_DIR}")
+set(PROJECT_System Programming unix_PATH "${CMAKE_CURRENT_LIST_DIR}")
 set(WORKSPACE_PATH "${CMAKE_CURRENT_LIST_DIR}/..")
 
 
@@ -77,8 +77,9 @@ link_directories(
 
 # Define the CXX sources
 set ( CXX_SRCS
-    ${CMAKE_CURRENT_LIST_DIR}/LFU_cache_CPP_STL.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/main.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/File System/file_stat.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/system_calls/setjmp_longjmp.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/File System/ls_linux.cpp
 )
 
 set_source_files_properties(
@@ -97,7 +98,7 @@ endif(WIN32)
 # Place your code here
 #}}}}
 
-add_library(DESIGN_DS_CODING ${RC_SRCS} ${CXX_SRCS} ${C_SRCS})
+add_library(System Programming unix ${RC_SRCS} ${CXX_SRCS} ${C_SRCS})
 
 
 

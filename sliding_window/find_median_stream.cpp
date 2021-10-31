@@ -1,6 +1,6 @@
 /*
  *  1. Use two priority queues
- *  2. Use multiset...has property of balanced BST
+ *  2. Use multiset...has property of balanced BST...root always part of median
  */ 
 
 //Using multiset

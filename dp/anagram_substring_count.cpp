@@ -33,3 +33,22 @@ int main()
 	cout << countOfAnagramSubstring(str) << endl; 
 	return 0; 
 }
+
+//Hackerrank: Count pair of anagrams
+int sherlockAndAnagrams(string s) {
+    unordered_map<string, int> mp;
+    int count=0;
+    for(int len=1; len<=s.size(); len++){
+        for(int i=0; i<s.size()-len+1; i++){
+            string str = s.substr(i, len);
+            sort(str.begin(), str.end());
+            if(mp.find(str)==mp.end()){
+                mp[str]=1;
+            } else {
+                count += mp[str];
+                mp[str]++;
+            }
+        }
+    }
+return count;
+}

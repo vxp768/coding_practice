@@ -1,5 +1,5 @@
 /*
- Find dupliocate in array. only one duplicate exists but it can occur multiple times
+ Find duplicate in array. only one duplicate exists but it can occur multiple times
 
 */
 

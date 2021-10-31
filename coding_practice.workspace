@@ -6,20 +6,21 @@
   <Project Name="sliding_window" Path="sliding_window/sliding_window.project" Active="No"/>
   <Project Name="two_pointers" Path="two_pointers/two_pointers.project" Active="No"/>
   <Project Name="graphs" Path="graphs/graphs.project" Active="No"/>
-  <Project Name="tree_bst" Path="tree_bst/tree_bst.project" Active="No"/>
+  <Project Name="tree_bst" Path="tree_bst/tree_bst.project" Active="Yes"/>
   <Project Name="trie_prefix_suffix" Path="trie_prefix_suffix/trie_prefix_suffix.project" Active="No"/>
   <Project Name="linked_list_slow_fast_ptrs" Path="slow_fast_pointers/slow_fast_pointers.project" Active="No"/>
   <Project Name="interval_problems" Path="interval_problems/interval_problems.project" Active="No"/>
   <Project Name="sorting" Path="sorting/sorting.project" Active="No"/>
   <Project Name="bit_operations" Path="bit_operations/bit_operations.project" Active="No"/>
   <Project Name="heaps_priority_queue" Path="heaps_priority_queue/heaps_priority_queue.project" Active="No"/>
-  <Project Name="ALGO_NOTES" Path="ALGO_NOTES/ALGO_NOTES.project" Active="No"/>
-  <Project Name="array_related" Path="array_related/array_related.project" Active="Yes"/>
+  <Project Name="1_CODING_NOTES" Path="ALGO_NOTES/ALGO_NOTES.project" Active="No"/>
+  <Project Name="array_related" Path="array_related/array_related.project" Active="No"/>
   <Project Name="modified_binary_search" Path="modified_binary_search/modified_binary_search.project" Active="No"/>
   <Project Name="Stack_Queue_Circular" Path="STACK_QUEUE_usage/STACK_QUEUE_usage.project" Active="No"/>
   <Project Name="DESIGN_DS_CODING" Path="DESIGN_DS_CODING/DESIGN_DS_CODING.project" Active="No"/>
   <Project Name="Divide_and_Conquer" Path="Divide_and_Conquer/Divide_and_Conquer.project" Active="No"/>
   <Project Name="Memory" Path="Memory/Memory.project" Active="No"/>
+  <Project Name="System Programming unix" Path="System Programming unix/System Programming unix.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -36,13 +37,14 @@
       <Project Name="sorting" ConfigName="Debug"/>
       <Project Name="bit_operations" ConfigName="Debug"/>
       <Project Name="heaps_priority_queue" ConfigName="Debug"/>
-      <Project Name="ALGO_NOTES" ConfigName="Debug"/>
+      <Project Name="1_CODING_NOTES" ConfigName="Debug"/>
       <Project Name="array_related" ConfigName="Debug"/>
       <Project Name="modified_binary_search" ConfigName="Debug"/>
       <Project Name="Stack_Queue_Circular" ConfigName="Debug"/>
       <Project Name="DESIGN_DS_CODING" ConfigName="Debug"/>
       <Project Name="Divide_and_Conquer" ConfigName="Debug"/>
       <Project Name="Memory" ConfigName="Debug"/>
+      <Project Name="System Programming unix" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -59,13 +61,14 @@
       <Project Name="sorting" ConfigName="Release"/>
       <Project Name="bit_operations" ConfigName="Release"/>
       <Project Name="heaps_priority_queue" ConfigName="Release"/>
-      <Project Name="ALGO_NOTES" ConfigName="Debug"/>
+      <Project Name="1_CODING_NOTES" ConfigName="Debug"/>
       <Project Name="array_related" ConfigName="Release"/>
       <Project Name="modified_binary_search" ConfigName="Release"/>
       <Project Name="Stack_Queue_Circular" ConfigName="Release"/>
       <Project Name="DESIGN_DS_CODING" ConfigName="Release"/>
       <Project Name="Divide_and_Conquer" ConfigName="Release"/>
       <Project Name="Memory" ConfigName="Release"/>
+      <Project Name="System Programming unix" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

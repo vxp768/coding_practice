@@ -32,7 +32,7 @@ public:
             vector<vector<int>> tmp_subsets;
             for(int j=0; j<final_result.size(); j++) {
                 vector<int> tmp = final_result[j];
-                tmp.push_back(new_num);
+                tmp.push_back(new_num);             //add new num to all existing vectors
                 tmp_subsets.push_back(tmp);
             }
             for(auto it=tmp_subsets.begin(); it!=tmp_subsets.end(); it++){

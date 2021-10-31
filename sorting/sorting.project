@@ -3,6 +3,8 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="bucket_sort.cpp"/>
+    <File Name="count_sort.cpp"/>
     <File Name="merge_sort.cpp"/>
     <File Name="Quick_Sort.cpp"/>
     <File Name="insertion_selection_bubble.cpp"/>

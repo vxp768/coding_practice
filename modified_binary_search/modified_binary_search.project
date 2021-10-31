@@ -93,6 +93,7 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="left_most_col_with_1.cpp"/>
     <File Name="kth_smalles_sorted_matrix.cpp"/>
     <File Name="minimum_difference_any_two_elem.cpp"/>
     <File Name="ceiling_of_number_sorted_arr.cpp"/>

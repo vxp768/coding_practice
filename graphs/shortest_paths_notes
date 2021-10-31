@@ -5,7 +5,7 @@
  *                                                                                (sparse graph)   (dense graph)
  * 1. Unweighted graph:                   Modified BFS               O(V+E)          O(V)            O(V^2)
  * 
- * 2. non-negative edge weights:          Dijkstra using min_heap    
+ * 2. non-negative edge weights:          Dijkstra using min_heap    O(Elog V)
  * 
  * 3. General case(-ve and +ve weights):  Bellmanford                O(VE)           O(V^2)          O(V^3)
  * 

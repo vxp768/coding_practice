@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="DESIGN_DS_CODING" Version="11000" InternalType="Library">
+<CodeLite_Project Name="System Programming unix" Version="11000" InternalType="Library">
+  <VirtualDirectory Name="system_calls">
+    <File Name="system_calls/setjmp_longjmp.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="File System">
+    <File Name="File System/file_stat.cpp"/>
+    <File Name="File System/notes"/>
+    <File Name="File System/ls_linux.cpp"/>
+  </VirtualDirectory>
   <Description/>
   <Dependencies/>
   <Settings Type="Static Library">
@@ -92,10 +100,4 @@
       </Completion>
     </Configuration>
   </Settings>
-  <VirtualDirectory Name="src">
-    <File Name="LFU_cache_CPP_STL.cpp"/>
-    <File Name="main.cpp"/>
-  </VirtualDirectory>
-  <Dependencies Name="Debug"/>
-  <Dependencies Name="Release"/>
 </CodeLite_Project>

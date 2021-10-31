@@ -14,7 +14,8 @@ int getPairsCount(int arr[], int n, int sum)
     // count (Notice that every pair is counted twice) 
     for (int i=0; i<n; i++) 
     { 
-        twice_count += mp[sum-arr[i]]; //mp includes all possible pairing and takes care of repeated ints in arrays
+        twice_count += mp[sum-arr[i]]; //mp includes all possible pairing 
+        //and takes care of repeated ints in arrays
   
         // if (arr[i], arr[i]) pair satisfies the condition, 
         // then we need to ensure that the count is 
@@ -26,4 +27,4 @@ int getPairsCount(int arr[], int n, int sum)
   
     // return the half of twice_count 
     return twice_count/2; 
-} 
+}

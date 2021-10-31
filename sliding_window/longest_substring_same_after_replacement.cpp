@@ -30,7 +30,7 @@ public:
             mp[s[i]]++;
             max_freq = max(max_freq, mp[s[i]]);
             
-            if(i-left+1 > max_freq+k) {
+            if(i-left+1 > max_freq+k) { //max_freq+k represents max window so far
                 //now window has one extra char...so acceptable window is "i-left" not "i-left+1"
                 //AABA: correct window size = 4 for K=1
                 //AABC: correct window size = 3
@@ -40,6 +40,32 @@ public:
                 left++;
             }
         }
-        return max(max_window, i-left);
+        return max(max_window, i-left); //i-left needed if last char repeeats till end
+    }
+};
+
+
+class Solution {
+public:
+    int characterReplacement(string s, int k) {
+        unordered_map<char, int> mp;
+        int res = 0;
+        if(s.size()==0)
+            return res;
+        int left=0;
+        int max_freq=0;
+        for(int i=0; i<s.size(); i++){
+            mp[s[i]]++;
+            max_freq = max(max_freq, mp[s[i]]);
+            if(i-left+1 <= max_freq+k){
+                res = max(res, i-left+1);
+            } else {
+              while(i-left+1 > max_freq+k ){
+                    mp[s[left]]--;
+                    left++;
+              }  
+            }
+        }
+        return res;
     }
 };

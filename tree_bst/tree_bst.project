@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Project Name="tree_bst" Version="11000" InternalType="Console">
   <VirtualDirectory Name="TRAVERSAL">
+    <File Name="TRAVERSAL/vertical_order_tvsl.cpp"/>
     <File Name="TRAVERSAL/two_sum_bst.cpp"/>
     <File Name="TRAVERSAL/bst_iterator.cpp"/>
     <File Name="TRAVERSAL/serialize_deserialize.cpp"/>
@@ -12,6 +13,7 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="range_sum_bst.cpp"/>
     <File Name="bst_insert_del.cpp"/>
     <File Name="segment_tree.cpp"/>
     <File Name="successor_predecessor_inorder.cpp"/>

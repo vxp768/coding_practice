@@ -1,7 +1,7 @@
 /*
  * Given an array nums, there is a sliding window of size k which is moving 
  * from the very left of the array to the very right. You can only see the k numbers in the window. 
- * Each time the sliding window moves right by one position. Return the max sliding window.
+ * Each time the sliding window moves right by one position. Return the max in sliding window.
 
 Follow up:
 Could you solve it in linear time?
@@ -22,7 +22,7 @@ Window position                Max
  1  3  -1  -3  5 [3  6  7]      7
 
  */
- // USING Double ended queue deque
+ // USING Double ended queue deque, put index not the number
  // largest element in window always appear in front of deque
  class Solution {
 public:

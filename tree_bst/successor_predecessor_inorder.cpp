@@ -40,13 +40,13 @@ void findPreSuc(Node* root, Node*& pre, Node*& suc, int key)
   
         // If root is given key. 
         if (root->key == key) { 
-            // the minimum value in right subtree is predecessor. 
+            // the minimum value in right subtree is successor. 
             if (root->right) { 
                 suc = root->right; 
                 while (suc->left) 
                     suc = suc->left; 
             }
-            // the maximum value in left subtree is successor. 
+            // the maximum value in left subtree is predecessor. 
             if (root->left) { 
                 pre = root->left; 
                 while (pre->right) 

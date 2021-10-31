@@ -22,15 +22,15 @@ public:
     }
     int partition(vector<int>& nums, int low, int high) {
         int pivot = nums[high];
-        int pIdx = low;
+        int left = low;
         for(int j=low; j<high; j++){
             if(nums[j] <= pivot){
-                swap(nums[pIdx], nums[j]);
-                pIdx++;
+                swap(nums[left], nums[j]);
+                left++;
             }
         }
-        swap(nums[pIdx], nums[high]);
-        return pIdx;
+        swap(nums[left], nums[high]);
+        return left;
     }
     
     //In case you want randomized....this can also cause increase in runtime..depending on the array pattern

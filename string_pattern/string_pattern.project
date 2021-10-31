@@ -3,6 +3,7 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="../dp/remove_adj_same_chars.cpp"/>
     <File Name="../dp/max_len_unique_char.cpp"/>
     <File Name="../dp/reorganize_string.cpp"/>
     <File Name="../dp/anagram_substring_count.cpp"/>
