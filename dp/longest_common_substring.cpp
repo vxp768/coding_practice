@@ -33,7 +33,7 @@ int LCSubStr(char *X, char *Y, int m, int n)
                 dp[i][j] = 0; 
             } else if (X[i-1] == Y[j-1]) {
                 dp[i][j] = dp[i-1][j-1] + 1; 
-                result = max(result, dp[i][j]); 
+                result = max(result, dp[i][j]); //last entry won't have result
             } else {
                 dp[i][j] = 0; 
             }

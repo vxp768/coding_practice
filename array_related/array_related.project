@@ -94,6 +94,7 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="subarray_sum_k.cpp"/>
     <File Name="buy_sell_stock_notes"/>
     <File Name="search_rotated_array.cpp"/>
     <File Name="rotated_arr_sorted.cpp"/>
@@ -106,7 +107,6 @@
     <File Name="max_product_subarray.cpp"/>
     <File Name="maximum_sum_subarray.cpp"/>
     <File Name="largest_rectangle_histogram.cpp"/>
-    <File Name="main.cpp"/>
   </VirtualDirectory>
   <Dependencies Name="Debug"/>
   <Dependencies Name="Release"/>

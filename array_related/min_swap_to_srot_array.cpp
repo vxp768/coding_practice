@@ -21,13 +21,15 @@ int findMinSwap(int arr[] , int n)
 {  
     vector<pair<int,int>> vec(n); 
     int swaps=0;
-    for(int i=0;i<n;i++) 
+    for(int i=0;i<n;i++) //Make a copy of array, add indices in pair
     { 
         vec[i].first=arr[i]; 
         vec[i].second=i; 
     } 
-    // Sort the vector w.r.t the first element of pair 
+    // Sort the vector w.r.t the first element of pair(array nums)
+    // after sorting, indices are randomized
     sort(vec.begin(),vec.end());
+    //go back to original array using swaps
     for(int i=0;i<n;i++) 
     { 
         // swap until the correct index matches 

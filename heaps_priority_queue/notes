@@ -3,3 +3,15 @@ An array can be converted to heap
 If Heap array is created from tree following then fill array as level order traversal
 
 HEAP is complete binary tree.
+
+
+priority queue:
+By default priority queueu in cpp is max_heap
+
+
+struct comp {
+    bool operator() (ListNode *l, ListNode* r){
+        return l->val > r->val;
+    }   
+};
+priority_queue<ListNode*, vector<ListNode*>, comp> pq;        //min heap

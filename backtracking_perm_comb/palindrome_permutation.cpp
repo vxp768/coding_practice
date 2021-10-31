@@ -18,7 +18,7 @@ public:
         return count<=1;
     }
 };
-//LONGETS PALINDROME POSSIBLE IN A STRING
+//LONGEST PALINDROME POSSIBLE IN A STRING
 class Solution {
 public:
     int longestPalindrome(string s) {

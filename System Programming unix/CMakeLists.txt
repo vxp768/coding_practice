@@ -3,7 +3,7 @@
 cmake_minimum_required(VERSION 2.8.11)
 
 # Project name
-project(array_related)
+project(System Programming unix)
 
 # This setting is useful for providing JSON file used by CodeLite for code completion
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
@@ -21,7 +21,7 @@ set(CONFIGURATION_NAME "Debug")
 
 # Top project
 # Define some variables
-set(PROJECT_array_related_PATH "${CMAKE_CURRENT_LIST_DIR}")
+set(PROJECT_System Programming unix_PATH "${CMAKE_CURRENT_LIST_DIR}")
 set(WORKSPACE_PATH "${CMAKE_CURRENT_LIST_DIR}/..")
 
 
@@ -77,18 +77,9 @@ link_directories(
 
 # Define the CXX sources
 set ( CXX_SRCS
-    ${CMAKE_CURRENT_LIST_DIR}/largest_rectangle_histogram.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/maximum_sum_subarray.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/max_product_subarray.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/min_swap_to_srot_array.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/best_time_buy_sell_stock.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/prod_arr_except_self.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/split_array_consecutive_nos.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/search_rotated_array.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/best_time_buy_sell_stock_II.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/buy_sell_generic.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/rotated_arr_sorted.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/subarray_sum_k.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/File System/file_stat.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/system_calls/setjmp_longjmp.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/File System/ls_linux.cpp
 )
 
 set_source_files_properties(
@@ -107,7 +98,7 @@ endif(WIN32)
 # Place your code here
 #}}}}
 
-add_library(array_related ${RC_SRCS} ${CXX_SRCS} ${C_SRCS})
+add_library(System Programming unix ${RC_SRCS} ${CXX_SRCS} ${C_SRCS})
 
 
 

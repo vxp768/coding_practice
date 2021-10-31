@@ -61,7 +61,7 @@ Right shift by 3 is == divide by 8 to get the number of bytes
                         if (_name[_byte]) {                             \
                                 //if all bits are unset then skip that byte
                                 bitstr_t _lb;                           \
-                                _value = _byte << 3;                    \
+                                _value = _byte << 3;     //divide by 8 to get byte index
                                 for (_lb = _name[_byte]; !(_lb & 0x1);  \
                                     ++_value, _lb >>= 1);               \
                                 break;                                  \

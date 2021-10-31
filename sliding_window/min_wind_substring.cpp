@@ -1,5 +1,6 @@
 /*
-Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).
+Given a string S and a string T, find the minimum window in S 
+which will contain all the characters in T in complexity O(n).
 
 Example:
 
@@ -32,12 +33,12 @@ public:
                     min_r = end;
                     min_len = end - start;
                 }
-                    //start shrinking window
-                    map[s[start]]++;
-                    if(map[s[start]] > 0){
-                        counter++;
-                    }
-                    start++;                
+                //start shrinking window
+                map[s[start]]++;
+                if(map[s[start]] > 0){
+                    counter++;
+                }
+                start++;                
             }            
         }
         if (min_len != INT_MAX) {

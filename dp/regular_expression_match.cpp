@@ -21,13 +21,11 @@ public:
         } else if (s_i<0 || s_i>s.size() || p_i > p.size() || p_i<0){
             return false;
         }
-        if(s[s_i] == p[p_i]){
-            return match(s, p, s_i+1, p_i+1);
-        } else if (p[p_i]== '.'){
+        if( (s[s_i] == p[p_i]) || (p[p_i]== '.') ){
             return match(s, p, s_i+1, p_i+1);
         } else if (p[p_i]=='*'){
             return match(s, p, s_i, p_i-1) ||      //repeat prev char
-                   match(s, p, s_i, p_i+1) ||      //ignore *
+                   match(s, p, s_i, p_i+1) ||      //ignore *...1 of prev char
                    match(s, p, s_i-1, p_i+1);      //zero of prev char in pattern
         } else {
             if(p_i<p.size()-1 && p[p_i+1]=='*')

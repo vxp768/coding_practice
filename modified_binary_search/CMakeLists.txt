@@ -77,12 +77,13 @@ link_directories(
 
 # Define the CXX sources
 set ( CXX_SRCS
-    ${CMAKE_CURRENT_LIST_DIR}/kth_smalles_sorted_matrix.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/main.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/left_most_col_with_1.cpp
     ${CMAKE_CURRENT_LIST_DIR}/order_agnostic_binary_search.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/ceiling_of_number_sorted_arr.cpp
     ${CMAKE_CURRENT_LIST_DIR}/search_array_unknown_size.cpp
     ${CMAKE_CURRENT_LIST_DIR}/minimum_difference_any_two_elem.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/ceiling_of_number_sorted_arr.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/main.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/kth_smalles_sorted_matrix.cpp
 )
 
 set_source_files_properties(

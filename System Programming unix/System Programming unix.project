@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="modified_binary_search" Version="11000" InternalType="Library">
+<CodeLite_Project Name="System Programming unix" Version="11000" InternalType="Library">
+  <VirtualDirectory Name="system_calls">
+    <File Name="system_calls/setjmp_longjmp.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="File System">
+    <File Name="File System/file_stat.cpp"/>
+    <File Name="File System/notes"/>
+    <File Name="File System/ls_linux.cpp"/>
+  </VirtualDirectory>
   <Description/>
   <Dependencies/>
   <Settings Type="Static Library">
@@ -92,15 +100,4 @@
       </Completion>
     </Configuration>
   </Settings>
-  <VirtualDirectory Name="src">
-    <File Name="left_most_col_with_1.cpp"/>
-    <File Name="kth_smalles_sorted_matrix.cpp"/>
-    <File Name="minimum_difference_any_two_elem.cpp"/>
-    <File Name="ceiling_of_number_sorted_arr.cpp"/>
-    <File Name="order_agnostic_binary_search.cpp"/>
-    <File Name="search_array_unknown_size.cpp"/>
-    <File Name="main.cpp"/>
-  </VirtualDirectory>
-  <Dependencies Name="Debug"/>
-  <Dependencies Name="Release"/>
 </CodeLite_Project>

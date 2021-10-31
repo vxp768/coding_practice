@@ -1,0 +1,9 @@
+************
+"read" command needs size of buffeer as an argument but "fgets" reads 1 line at a time.
+
+while ((n = read(STDIN_FILENO, buf, BUFFSIZE)) > 0) { //read BUFSIZE bytes in buf
+
+}
+while (fgets(buf, MAXLINE, stdin) != NULL) { //read one line into buf
+    
+}
