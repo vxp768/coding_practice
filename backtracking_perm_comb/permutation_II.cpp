@@ -4,7 +4,7 @@ class Solution {
     string result;
 public:
     string getPermutation(int n, int k) {
-        vector<char> numset(n,'1');
+        vector<char> numset(n,'1'); //ascii code
         int fact = n; 
         int idx;
         //interval for e.g. for 5 nums:
@@ -20,7 +20,7 @@ public:
           */
         for(int i=1; i<n; i++){
             fact = fact * i;
-            numset[i] = numset[i-1] + 1;    
+            numset[i] = numset[i-1] + 1;    //ascii code is incremented by 1 ...so next number
         }        
         while(n>0){
             fact = fact/n;            
