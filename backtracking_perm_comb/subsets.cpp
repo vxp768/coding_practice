@@ -22,6 +22,24 @@ public:
     }
 };
 
+
+//REALLY REALLY SMART ITERATION
+class Solution {
+public:
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<vector<int>> final_result= {{}}; //init makes the size 1
+        for(int i=0; i<nums.size(); i++) {
+            int new_num = nums[i];
+            int subset_size_sofar = final_result.size();
+            for(int j=0; j<subset_size_sofar; j++) {
+                final_result.push_back(final_result[j]);  //push set in end
+                final_result.back().push_back(new_num);   // add new num to the set added above
+            }
+        }
+        return final_result;
+    }
+};
+
 //ITERATIVE WAY
 class Solution {
 public:
@@ -41,23 +59,6 @@ public:
             final_result.push_back(vector<int>{new_num});
         }
         final_result.push_back(vector<int>{});
-        return final_result;
-    }
-};
-
-//REALLY REALLY SMART ITERATION
-class Solution {
-public:
-    vector<vector<int>> subsets(vector<int>& nums) {
-        vector<vector<int>> final_result= {{}}; //init makes the size 1
-        for(int i=0; i<nums.size(); i++) {
-            int new_num = nums[i];
-            int subset_size_sofar = final_result.size();
-            for(int j=0; j<subset_size_sofar; j++) {
-                final_result.push_back(final_result[j]);  //push set in end
-                final_result.back().push_back(new_num);   // add new num to the set added above
-            }
-        }
         return final_result;
     }
 };

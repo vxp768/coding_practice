@@ -24,14 +24,20 @@ public:
 }; 
 void Graph::shortestPath(int src) 
 { 
-    priority_queue< iPair, vector <iPair> , greater<iPair> > pq; 
+    priority_queue< iPair, vector <iPair> , greater<iPair> > pq;  //min heap
     vector<int> dist(V, INF); 
 
     pq.push(make_pair(0, src)); 
     dist[src] = 0; 
     while (!pq.empty()) { 
-        int u = pq.top().second; 
+        int u = pq.top().second;
+        int distance = pq.top().first;
         pq.pop(); 
+
+        //if dist[u] is less than popped  distance...ignore the entry
+        if (distance > dist[u]) {
+            continue;
+        }
 
         list< pair<int, int> >::iterator i; 
         for (i = adj[u].begin(); i != adj[u].end(); ++i) { 

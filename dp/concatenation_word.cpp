@@ -43,7 +43,7 @@ public:
 };
 
 
-//      TRIE BASED
+//      TRIE BASED...is faster than dp solution but takes more memory
 class Solution {
 public:
     struct TrieNode {

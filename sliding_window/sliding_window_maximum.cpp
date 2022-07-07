@@ -46,7 +46,7 @@ public:
             }
             deq.push_back(i);
         }
-        result.push_back(nums[deq.front()]);
+        result.push_back(nums[deq.front()]); //for last window
         return result;
     }
 };

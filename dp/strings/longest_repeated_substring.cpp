@@ -3,24 +3,29 @@
  * 1. Use DP to solve it
  * 2. Use binary search and rabin-karp algo
  * 3. Use KMP
+ * Input: s = "aabcaabdaab"
+   Output: 3
+   Explanation: The longest repeating substring is "aab", which occurs 3 times.
  */
  
  //DP (On^2)
-iclass Solution {
+class Solution {
 public:
-    int longestRepeatingSubstring(string S) {
-        vector<vector<int>> dp(S.size()+1, vector<int>(S.size()+1));
-        int max_val=0, val=0;
-        for (int i=0; i<S.size(); i++) {
-            for(int j=0; j<i; j++) {
-                if(S[j] == S[i]) {
-                    dp[i+1][j+1] = dp[i][j]+1;
-                    val = dp[i+1][j+1];
-                    max_val = max(val, max_val);
+    int longestRepeatingSubstring(string s) {
+        //same as longest common substring in str1 and str2. here str1==str2
+        
+        vector<vector<int>> dp(s.size()+1, vector<int>(s.size()+1, 0));
+        int res=0;
+        
+        for (int i=0; i<s.size(); i++){
+            for(int j=0; j<i; j++){ //consider both sub-string of same size
+                if(s[i] == s[j]) {
+                    dp[i+1][j+1] = dp[i][j] + 1;
+                    res = max(res, dp[i+1][j+1]);
                 }
             }
         }
-        return max_val;
+        return res;
     }
 };
  
@@ -81,5 +86,39 @@ public:
             }
         }
         return -1;
+    }
+};
+
+
+////////  USING TRIE O(n^2) takes lot more memory and time
+
+class TrieNode {
+  public:
+    TrieNode* child[26];
+    TrieNode(){
+        for(int i=0; i<26; i++){
+            child[i] = NULL;
+        }
+    }
+};
+
+class Solution {
+public:
+    int longestRepeatingSubstring(string s) {
+        TrieNode *root = new TrieNode;
+        int res=0;
+        TrieNode *cur;
+        for(int i=0; i<s.size(); i++){ //loop over string
+            cur = root;
+            for(int j=i; j<s.size(); j++){ //loop over string tarting from i till end
+                if(cur->child[s[j]-'a'] == NULL){
+                    cur->child[s[j]-'a'] = new TrieNode;
+                } else {
+                    res = max(res, j-i+1);
+                }
+                cur = cur->child[s[j]-'a'];
+            }
+        }
+        return res;
     }
 };

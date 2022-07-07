@@ -4,6 +4,10 @@
  *    1. calculate hash of pattern
  *    2. caclulate hash of text for first 'M' char
  *    3. for each new char from text, subtract older char and add new char
+ * 
+ *  USEFUL when there are multiple patterns to be searched. Find hash of each pattern and then compare
+ *  with hash of substrings in text
+ * 
  */
  https://leetcode.com/articles/repeated-dna-sequences/
  #define max_char 256

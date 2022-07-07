@@ -21,13 +21,15 @@ public:
         for(int i=1; i<n; i++){
             fact = fact * i;
             numset[i] = numset[i-1] + 1;    //ascii code is incremented by 1 ...so next number
-        }        
-        while(n>0){
-            fact = fact/n;            
-            idx = (k-1)/fact; //to take care of border cases use k-1...e.g 96
+        }
+        //reduce k by 1...div by any number is in range 0 to (n-1)...so 0 idx range is better for maths
+        k = k-1;         
+        while(n>0) {
+            fact = fact/n;  
+            idx = k/fact;
             result += numset[idx];
             k = k - (idx * fact);
-            numset.erase(numset.begin()+idx);
+            numset.erase(numset.begin()+idx); //could be O(n) ...so total complexity is O(n^2)
             n--;
         }
         return result;

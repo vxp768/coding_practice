@@ -32,7 +32,7 @@ int findMinSwap(int arr[] , int n)
     //go back to original array using swaps
     for(int i=0;i<n;i++) 
     { 
-        // swap until the correct index matches 
+        // swap until the correct index matches
         while(vec[i].second != i) {
             // swap with its respective index 
             swap(vec[i].first,vec[vec[i].second].first); 

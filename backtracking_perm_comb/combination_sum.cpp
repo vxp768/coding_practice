@@ -26,7 +26,7 @@ public:
             if(nums[i] > sum)
                 return;
             tmp.push_back(nums[i]);
-            util(nums, sum-nums[i], tmp, i);
+            util(nums, sum-nums[i], tmp, i); //current idx is being passed..so same num can repeat
             tmp.pop_back();
         }
     }

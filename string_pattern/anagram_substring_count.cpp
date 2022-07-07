@@ -1,4 +1,37 @@
 
+//// Using hash of substring instead of sort
+vector<int> getHash(string str){
+	vector<int> freq(26, 0);
+	for(int i=0; i<str.size(); i++){
+		freq[str[i]-'a']++;
+	}
+	return freq;
+}
+int countOfAnagramSubstring(string str) 
+{ 
+	int N = str.length(); 
+
+	// To store counts of substrings with given 
+	// set of frequencies. map can take vector<int> as key but not unordered_map
+	map<vector<int>, int> mp; 
+ 
+	/// O(n^3)
+	for (int len=1; len<=N; len++) { 
+		for (int i=0; i<=N-len; i++) { 
+			vector<int> tmp = getHash(str.substr(i, len)); 
+			mp[tmp]++;
+		} 
+	} 
+	// loop over all different freq array and aggregate substring count 
+	int result = 0; 
+	for (auto it=mp.begin(); it!=mp.end(); it++) 
+	{ 
+		int freq = it->second; 
+		result += ((freq) * (freq-1))/2;   //possible pairs
+	} 
+	return result; 
+} 
+
 //https://www.geeksforgeeks.org/count-total-anagram-substrings/
 
 int countOfAnagramSubstring(string str) 

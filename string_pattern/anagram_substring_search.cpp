@@ -1,3 +1,5 @@
+
+
 bool compare(char arr1[], char arr2[]) 
 { 
     for (int i=0; i<MAX; i++) 

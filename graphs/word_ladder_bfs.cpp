@@ -16,7 +16,7 @@ public:
         unordered_set<string> dict(wordList.begin(), wordList.end());
         queue<string> Q;
         Q.push(beginWord);
-        int ladder_len=1; //includes being and end word
+        int ladder_len=1; //includes begin and end word
         
         while(!Q.empty()) {
             //process all adjacencies of previous word

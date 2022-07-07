@@ -14,6 +14,10 @@ s = "AABABBA", k = 1
 Output:
 4
 */
+/*
+ map.size() concept cannot be used as same characters can repeat and size will be two but only 1 change is allowed
+ count of distinct char concept cannot be used for same reason
+*/
 class Solution {
 public:
     int characterReplacement(string s, int k) {

@@ -39,7 +39,7 @@ public:
 };
 
 
-// USING PRIORITY QUEUE...slower than quick select method
+// USING PRIORITY QUEUE
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {

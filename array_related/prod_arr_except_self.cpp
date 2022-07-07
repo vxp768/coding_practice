@@ -1,7 +1,7 @@
 /*
  * Product of array except self
  */ 
- //Using two arrays: one fo rleft pass and another for right pass
+ //Using two arrays: one for left pass and another for right pass
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {

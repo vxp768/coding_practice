@@ -31,7 +31,7 @@ public:
                 if (end - start < min_len) {
                     min_l = start;
                     min_r = end;
-                    min_len = end - start;
+                    min_len = end - start; //end points to 1 char after window
                 }
                 //start shrinking window
                 map[s[start]]++;

@@ -100,8 +100,8 @@ Node *findLCA(Node *root, int n1, int n2)
     Node *lca = findLCAUtil(root, n1, n2, v1, v2); 
   
     // Return LCA only if both n1 and n2 are present in tree 
-    if (v1 && v2    ||    v1 && find(lca, n2)      ||      v2 && find(lca, n1)) 
-        return lca; 
+    if (v1 && v2 || v1 && find(lca, n2) || v2 && find(lca, n1)) 
+        return lca;
     return NULL; 
 } 
 

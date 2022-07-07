@@ -44,7 +44,7 @@ For this case, we really have two unknown variables on each day: T[i][1][0] and 
 T[i][1][0] = max(T[i-1][1][0], T[i-1][1][1] + prices[i])
 T[i][1][1] = max(T[i-1][1][1], T[i-1][0][0] - prices[i]) = max(T[i-1][1][1], -prices[i])
 
-where we have taken advantage of the base caseT[i][0][0] = 0 for the second equation.
+where we have taken advantage of the base case T[i][0][0] = 0 for the second equation.
 
 
 Case II: k = +Infinity
@@ -66,7 +66,7 @@ T[i][2][1] = max(T[i-1][2][1], T[i-1][1][0] - prices[i])
 T[i][1][0] = max(T[i-1][1][0], T[i-1][1][1] + prices[i])
 T[i][1][1] = max(T[i-1][1][1], -prices[i])
 
-where again we have taken advantage of the base caseT[i][0][0] = 0 for the last equation. The O(n) time and O(1) space solution is as follows:
+where again we have taken advantage of the base case T[i][0][0] = 0 for the last equation. The O(n) time and O(1) space solution is as follows:
 
 
 Case IV: k is arbitrary

@@ -1,3 +1,7 @@
+/*
+
+*/
+//BRUTE FORCE
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -35,7 +39,7 @@ public:
         return true;
     }
 };
-
+//DP bottom-up
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -68,4 +72,44 @@ public:
         return s.substr(beg, longest);
     }
     
+};
+
+//EXPAND AROUND CENTER
+/*
+In fact, we could solve it in O(n^2)O(n 
+2
+ ) time using only constant space.
+
+We observe that a palindrome mirrors around its center. Therefore, a palindrome can be 
+expanded from its center, and there are only 2n - 1 such centers.
+
+You might be asking why there are 2n - 1 but not nn centers? The reason is the center of a 
+palindrome can be in between two letters.
+Such palindromes have even number of letters (such as "abba") and its center are between the two 'b's.
+*/
+
+class Solution {
+public:
+    string longestPalindrome(string s) {
+        int maxLen=0, beg=0;
+        
+        for(int i=0; i<s.size(); i++){
+            int len1 = expand(s, i, i); //odd case
+            int len2 = expand(s, i, i+1); //even case
+            int len = max(len1, len2);
+            if (len > maxLen){
+                maxLen = len;
+                beg = i - (len-1)/2 ; //start idx will be left of i
+            }
+        }
+        return s.substr(beg, maxLen);
+    }
+    int expand(string &s, int left, int right){
+        
+        while(left>=0 && right<s.size() && s[left]==s[right]){
+            left--;
+            right++;
+        }
+        return right-left-1;
+    }
 };
